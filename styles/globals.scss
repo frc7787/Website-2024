@@ -1,0 +1,967 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+$poppins: 'Poppins', sans-serif;
+$montserrat: 'Montserrat', sans-serif;
+$black: #292929;
+$white: #FFF;
+
+* {
+  box-sizing: border-box;
+}
+body *{
+  font-family: $poppins;
+  text-decoration: none;
+}
+body {
+  height: 100vh;
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 138px;
+  background: $white;
+  padding: 0px 41px;
+}
+
+.navGroup1 {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+
+  p {
+    font-family: $montserrat;
+    font-size: 25px;
+    font-weight: 600;
+    color: $black;
+  }
+}
+.navGroup2 {
+  display: flex;
+  border-radius: 1000px;
+  background: #F7F7F7;
+  height: 52px;
+}
+.navElementContainer {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0px 40px;
+  border-radius: 1000px;
+  transition: background 0.5s, color 0.5s;
+  cursor: pointer;
+
+  p {
+    font-weight: 500;
+    font-size: 16px;
+    font-family: $montserrat;
+    color: $black;
+    transition: color 0.5s;
+  }
+
+  &:hover {
+    background: $black;
+
+    p {
+      color: $white;
+    }
+  }
+}
+.homeMain {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 70px;
+
+  h1 {
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 85px;
+    color: $black;
+    max-width: 880px;
+  }
+}
+.homeDescription {
+  margin-top: 30px;
+  max-width: 543px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+  color: #9D9D9D;
+}
+.homeAboutButton {
+  margin-top: 50px;
+  width: 167px;
+  height: 61px;
+  background: $black;
+  border-radius: 10px;
+  outline: 0px;
+  border: 0px;
+  color: $white;
+  font-weight: 400;
+  font-size: 20px;
+  transition: background 0.5s;
+  cursor: pointer;
+
+  &:hover {
+    background: rgb(54, 54, 54);
+  }
+}
+.homeImageGrid {
+  margin-top: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+.competitionsMain {
+  margin-top: 175px;
+}
+.compeitionsHeaders {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+
+  h1 {
+    color: $black;
+    font-weight: 700;
+    font-size: 60px;
+  }
+  p {
+    margin-top: 20px;
+    color: #9D9D9D;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 530px;
+  }
+}
+.allCompetitions {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 150px;
+}
+.compeitionElement {
+  display: flex;
+  gap: 110px;
+}
+.compeitionElementImage {
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 50px 50px 50px 50px;
+}
+.competitionElementTextAlign {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+
+  div {
+    h2 {
+      font-weight: 700;
+      font-size: 45px;
+      line-height: 60px;
+      color: $black;
+      max-width: 444px;
+    }
+    p {
+      margin-top: 25px;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 35px;
+      color: #9D9D9D;
+      max-width: 530px;
+    }
+    button {
+      @extend .homeAboutButton;
+    }
+  }
+}
+.compeitionElement2 {
+  margin-top: 185px;
+  flex-flow: row-reverse;
+}
+.sponsorsMain {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 180px;
+  padding: 0px 25px;
+}
+.sponsorsHeaders {
+  @extend .compeitionsHeaders;
+}
+.sponsorContainer {
+	img {
+		width: 150px;
+	}
+}
+.sponsorsSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  max-width: 1085px;
+  margin-top: 105px;
+}
+.sponsorContainer {
+  height: 142px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #D5D5D5;
+}
+.aboutMain {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+.aboutContainer {
+  display: flex;
+  gap: 142px;
+}
+.aboutSubheader {
+  font-weight: 400;
+  font-size: 20px;
+  color: #D6D6D6;
+}
+.aboutContainerText {
+  max-width: 572px;
+
+  h3 {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 63px;
+    color: $black;
+    margin-top: 15px;
+  }
+
+  button {
+    @extend .homeAboutButton;
+  }
+}
+.aboutDescription {
+  margin-top: 32px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  color: #B0B0B0;
+}
+.pricingMain {
+  display: flex;
+  flex-flow: column;
+  margin-top: 200px;
+  align-items: center;
+}
+.pricingHeaders {
+  @extend .compeitionsHeaders;
+}
+.pricingComponents {
+  width: 100%;
+  max-width: 1085px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  gap: 50px 0px;
+}
+.pricingComponent {
+  padding: 30px;
+  border-radius: 20px;
+  border: 2px solid #F4F4F4;
+  width: 100%;
+  max-width: 325px;
+  height: 538px;
+}
+.pricingComponentSubheader {
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 30px;
+  color: $black;
+  background: #F3F3F3;
+  border-radius: 5px;
+  width: max-content;
+}
+.pricingComponentPricing {
+  display: flex;
+  margin-top: 25px;
+}
+.pricingComponentPricingHeader {
+  font-weight: 600;
+  font-size: 55px;
+  color: $black;
+}
+.pricingComponentPricingToAndYear {
+  font-weight: 400;
+  font-size: 16px;
+  color: #D0D0D0;
+  margin-top: 5px;
+  margin-left: 3px;
+}
+.seperationLine {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 1px;
+  background: #E6E6E6;
+  border-radius: 5px;
+}
+.pricingComponentBenefits {
+  display: flex;
+  flex-flow: column;
+  gap: 21px;
+}
+.pricingComponentBenefit {
+  display: flex;
+  gap: 16px;
+
+  p {
+    margin-top: 2px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B4B4B4;
+  }
+}
+.pricingComponentRelative {
+  position: relative;
+  height: 100%;
+}
+.pricingComponentButton {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 49px;
+  background: $black;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 15px;
+  color: $white;
+  transition: background 0.5s;
+  cursor: pointer;
+
+  &:hover {
+    background: rgb(54, 54, 54);
+  }
+}
+.pricingComponentGold {
+  height: 580px;
+}
+.pricingComponentPlatinum {
+  height: 732px;
+}
+footer {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background: $black;
+  margin-top: 200px;
+  padding: 100px 115px;
+  padding-bottom: 45px;
+}
+.footerHeader {
+  font-weight: 700;
+  font-size: 40px;
+  color: $white;
+  text-align: center;
+  line-height: 50px;
+}
+.footerPricingButton {
+  margin-top: 45px;
+  width: 232px;
+  height: 60px;
+  border-radius: 1000px;
+  background: #323232;
+  font-weight: 400;
+  font-size: 18px;
+  color: $white;
+  border: none;
+  outline: none;
+  transition: background 0.5s, color 0.5s;
+  cursor: pointer;
+
+  &:hover {
+    background: $white;
+    color: $black;
+  }
+}
+.footerElements {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 185px;
+}
+.footerContactSubheader {
+  font-weight: 500;
+  font-size: 16px;
+  color: #525252;
+}
+.footerContactEmail {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  color: $white;
+}
+.footerElement2 {
+  display: flex;
+  gap: 23px;
+}
+.socialButton {
+  width: 65px;
+  height: 65px;
+  background: #323232;
+  color: $white;
+  border: none;
+  outline: none;
+  border-radius: 1000px;
+  font-size: 20px;
+  transition: background 0.5s, color 0.5s;
+  cursor: pointer;
+
+  &:hover {
+    background: $white;
+    color: $black;
+  }
+}
+.navHamburger {
+	display: none;
+	z-index: 5;
+	cursor: pointer;
+
+	rect {
+		fill: #181818;
+
+		&:nth-child(1) {
+			transition: transform 1s, opacity 1s;
+		}
+		&:nth-child(2) {
+			transition: transform 1s, opacity 1s;
+			opacity: 1;
+		}
+		&:nth-child(3) {
+			transition: transform 1s, opacity 1s;
+		}
+	}
+}
+.navHamburgerOpen {
+  z-index: 5;
+
+	rect {
+		fill: $white;
+		
+		&:nth-child(1) {
+			transform: translateY(9px) rotate(45deg);
+			transform-origin: center 0;
+		}
+		&:nth-child(2) {
+			transform: translateY(-10px) rotate(-45deg);
+			transform-origin: center 22px;
+		}
+		&:nth-child(3) {
+			opacity: 0;
+		}
+	}
+}
+
+.dropdown {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 55vw;
+  height: 100%;
+  background: $black;
+  z-index: 2;
+  transition: right 1s cubic-bezier(.42,0,0,1.01);
+  padding: 170px 85px;
+}
+.dropdownClosed {
+  right: -55vw;
+}
+.dropdownOpen {
+  right: 0vw;
+}
+.dropdownElements {
+  display: flex;
+  flex-flow: column;
+  gap: 55px;
+}
+.dropdownElement {
+  font-weight: 500;
+  font-size: 35px;
+  color: rgb(209, 209, 209);
+  cursor: pointer;
+  transition: color 0.5s;
+  width: max-content;
+
+  &:hover {
+    color: $white;
+  }
+}
+.dropdownSocials {
+  display: flex;
+  gap: 50px;
+  margin-top: 80px;
+}
+.startedFormDetails {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
+.getStartedInformation {
+  max-width: 1000px;
+  color: $black;
+  line-height: 25px;
+}
+.getStartedHeaders {
+  @extend .compeitionsHeaders;
+  margin-bottom: 100px;
+}
+.getStartedButtons {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 100px;
+  flex-wrap: wrap;
+
+  button {
+    width: 250px;
+    height: 65px;
+    background: $black;
+    border-radius: 10px;
+    color: $white;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background 0.5s;
+    border: none;
+    outline: none;
+
+    &:hover {
+      background: rgb(54, 54, 54);
+    }
+  }
+}
+.getStartedAllInformation {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 0px 25px;
+}
+.getStartedInformationHeader {
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 50px;
+}
+.getStartedBudget {
+  width: 100%;
+  max-width: 700px;
+  border: 1px solid #D5D5D5;
+  margin-top: 50px;
+}
+.getStartedBudgetElement {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #D5D5D5;
+  font-size: 15px;
+  color: rgb(139, 139, 139);
+
+  &:last-child {
+    border-bottom: 0px;
+
+    .getStartedBudgetHeader, .getStartedBudgetCost {
+      font-weight: 700;
+    }
+  }
+}
+.getStartedBudgetHeader {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  text-align: left;
+}
+.getStartedBudgetCost {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  padding: 10px 10px;
+  border-left: 1px solid #D5D5D5;
+}
+.getStartedInformationBenefits {
+  margin-top: 50px;
+  max-width: 700px;
+  text-align: left;
+
+  strong {
+    font-weight: 700;
+  }
+
+  ul {
+    list-style-type: circle;
+    margin-left: 40px;
+  }
+}
+.getStartedInformationHeaderBenefits {
+  margin-top: 100px;
+}
+.chequeComponent {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+  padding: 0px 25px;
+}
+.chequePaymentInformation {
+  @extend .getStartedInformation;
+}
+.chequePaymentHeaders {
+  @extend .getStartedHeaders;
+}
+.chequeForm {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px 50px;
+}
+.chequeFormButton {
+  width: 250px;
+  height: 65px;
+  margin-top: 100px;
+  background: $black;
+  border-radius: 10px;
+  color: $white;
+  font-size: 17px;
+  cursor: pointer;
+  transition: background 0.5s;
+  border: none;
+  outline: none;
+
+  &:hover {
+    background: rgb(54, 54, 54);
+  }
+}
+.onlineComponent {
+  @extend .chequeComponent;
+}
+.onlinePaymentHeaders {
+  @extend .getStartedHeaders;
+}
+.onlinePaymentInformation {
+  @extend .getStartedInformation;
+
+  strong {
+    font-weight: 700;
+  }
+}
+.onlinePaymentMethod {
+  @extend .chequeFormButton;
+}
+
+
+
+
+@media screen and (max-width: 1350px) {
+  .homeImageGrid img:nth-child(3) {
+    display: none;
+  }
+  .compeitionElement  {
+    flex-flow: column;
+  }
+  .competitionElementTextAlign {
+    text-align: center;
+
+    div {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+    }
+  }
+  .compeitionElement {
+    align-items: center;
+    gap: 65px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .navHamburger {
+    display: block;
+  }
+  .navGroup2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .aboutContainer {
+    gap: 80px;
+  }
+  .aboutMain {
+    padding: 0px 25px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .homeImageGrid img:nth-child(4) {
+    display: none;
+  }
+}
+@media screen and (max-width: 950px) {
+  .aboutContainer {
+    flex-flow: column;
+    align-items: center;
+    gap: 125px;
+
+    img {
+      width: 350px;
+    }
+  }
+  .aboutContainerText {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 850px) {
+  .dropdown {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+  }
+  .dropdownClosed {
+    right: -100vw;
+  }
+  .dropdownElements {
+    align-items: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .homeMain h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .homeMain {
+    padding: 0px 10px;
+  }
+  .homeImageGrid {
+    flex-flow: column;
+    width: 100%;
+    margin-top: 100px;
+    gap: 50px;
+
+    img {
+      height: 250px;
+      width: 100%;
+      max-width: 400px;
+      object-fit: cover;
+      border-radius: 25px;
+    }
+  }
+  .compeitionElementImage {
+    width: 400px;
+    height: 400px;
+  }
+  footer {
+    padding: 100px 50px;
+    padding-bottom: 45px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .sponsorsSection {
+    grid-template-columns: 1fr;
+  }
+  .sponsorsMain {
+    padding: 0px 10px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .footerElements {
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .compeitionsHeaders {
+    h1 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+  .allCompetitions {
+    margin-top: 100px;
+  }
+  .footerHeader {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .getStartedInformation {
+    font-size: 13px;
+  }
+  .getStartedAllInformation {
+    padding: 0px 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .homeMain {
+    h1 {
+      font-size: 35px;
+      line-height: 45px;
+    }
+  }
+  .homeDescription {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .homeAboutButton {
+    width: 150px;
+    height: 52px;
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .compeitionElementImage {
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+  }
+  .competitionElementTextAlign div {
+    h2 {
+      font-size: 30px;
+      line-height: 40px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 30px;
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+  .aboutContainerText {
+    h3 {
+      font-size: 30px;
+      line-height: 45px;
+    }
+  }
+  .aboutDescription {
+    font-size: 14px;
+  }
+  .aboutContainer {
+    gap: 100px;
+
+    img {
+      width: 300px;
+    }
+  }
+}
+@media screen and (max-width: 350px) {
+  .dropdownSocials {
+    gap: 35px;
+  }
+  .getStartedInformationHeaderBenefits {
+    font-size: 25px;
+  }
+  .getStartedBudgetHeader {
+    font-size: 13px;
+  }
+  .getStartedBudgetCost {
+    padding: 10px 5px;
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 325px) {
+  .pricingComponentGold {
+    height: 620px;
+  }
+  .pricingComponentPlatinum {
+    height: 780px;
+  }
+}
+
+
+
+@media screen and (max-height: 875px) {
+  .dropdown {
+    padding: 125px 85px;
+  }
+  .dropdownSocials {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-height: 800px) {
+  .dropdownElements {
+    gap: 35px;
+  }
+  .dropdownElement {
+    font-size: 30px;
+  }
+}
+@media screen and (max-height: 650px) {
+  .dropdown  {
+    padding: 75px 85px;
+  }
+  .dropdownSocials {
+    margin-top: 35px;
+  }
+}
