@@ -66,7 +66,7 @@ export default function Nav() {
                     <Link href="/#home" onClick={() => changeDropdownStateFunction(!dropdownState)}>
                         <p className="dropdownElement">Home</p>
                     </Link>
-                    <Link href="/#competition" onClick={() => changeDropdownStateFunction(!dropdownState)}>
+                    <Link href="/#competitions" onClick={() => changeDropdownStateFunction(!dropdownState)}>
                         <p className="dropdownElement">Competitions</p>
                     </Link>
                     <Link href="/#sponsors" onClick={() => changeDropdownStateFunction(!dropdownState)}>
