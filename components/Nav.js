@@ -17,7 +17,7 @@ export default function Nav() {
             <nav>
                 <Link href="/#home">
                     <div className="navGroup1">
-                        <img src="logo.svg" alt="reybots logo" />
+                        <img src="/logo.svg" alt="reybots logo" />
                         <p>Reybots</p>
                     </div>
                 </Link>
