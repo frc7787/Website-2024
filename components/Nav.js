@@ -83,11 +83,11 @@ export default function Nav() {
                     </Link>
                     <div className="dropdownSocials">
                         <Link href="https://www.instagram.com/reynoldsreybots/" target="_blank" rel="noreferrer">
-                            <button className="socialButton">
+                            <button className="socialButton" aria-label="Instagram Link" target="_blank" rel="noreferrer" >
                                 <i class="fa-brands fa-instagram"></i>
                             </button>
                         </Link>
-                        <button className="socialButton">
+                        <button className="socialButton" aria-label="Youtube Link" >
                             <i class="fa-brands fa-youtube"></i>
                         </button>
                     </div>
