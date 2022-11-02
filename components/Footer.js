@@ -16,12 +16,12 @@ export default function Footer() {
                     </Link>
                 </div>
                 <div className="footerElement2">
-                    <Link href="https://www.instagram.com/reynoldsreybots/" target="_blank" rel="noreferrer">
+                    <Link href="https://www.instagram.com/reynoldsreybots/" target="_blank" rel="noreferrer" aria-label="Instagram Link" >
                         <button className="socialButton">
                             <i class="fa-brands fa-instagram"></i>
                         </button>
                     </Link>
-                    <button className="socialButton">
+                    <button className="socialButton" aria-label="Youtube Link" >
                         <i class="fa-brands fa-youtube"></i>
                     </button>
                 </div>
