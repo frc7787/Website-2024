@@ -278,7 +278,7 @@ nav {
 .aboutSubheader {
   font-weight: 400;
   font-size: 20px;
-  color: #D6D6D6;
+  color: $light-black;
 }
 .aboutContainerText {
   max-width: 572px;
@@ -352,7 +352,7 @@ nav {
 .pricingComponentPricingToAndYear {
   font-weight: 400;
   font-size: 16px;
-  color: #D0D0D0;
+  color: $light-black;
   margin-top: 5px;
   margin-left: 3px;
 }
@@ -395,6 +395,8 @@ nav {
   font-weight: 400;
   font-size: 15px;
   color: $white;
+  outline: none;
+  border: none;
   transition: background 0.5s;
   cursor: pointer;
 
