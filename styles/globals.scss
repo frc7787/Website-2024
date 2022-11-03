@@ -50,6 +50,7 @@ $poppins: 'Poppins', sans-serif;
 $montserrat: 'Montserrat', sans-serif;
 $black: #292929;
 $white: #FFF;
+$light-black: #595959;
 
 * {
   box-sizing: border-box;
@@ -139,7 +140,7 @@ nav {
   font-weight: 400;
   font-size: 18px;
   line-height: 35px;
-  color: #9D9D9D;
+  color: $light-black;
 }
 .homeAboutButton {
   margin-top: 50px;
@@ -182,7 +183,7 @@ nav {
   }
   p {
     margin-top: 20px;
-    color: #9D9D9D;
+    color: $light-black;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
@@ -223,7 +224,7 @@ nav {
       font-weight: 400;
       font-size: 17px;
       line-height: 35px;
-      color: #9D9D9D;
+      color: $light-black;
       max-width: 530px;
     }
     button {
@@ -299,7 +300,7 @@ nav {
   font-weight: 400;
   font-size: 17px;
   line-height: 30px;
-  color: #B0B0B0;
+  color: $light-black;
 }
 .pricingMain {
   display: flex;
@@ -377,7 +378,7 @@ nav {
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
-    color: #B4B4B4;
+    color: $light-black;
   }
 }
 .pricingComponentRelative {
