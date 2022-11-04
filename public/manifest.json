@@ -1,0 +1,9 @@
+{
+  "name": "Reynolds Reybots",
+  "short_name": "Reybots",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "browser",
+  "scope": "/",
+  "start_url": "/"
+}
