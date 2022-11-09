@@ -31,7 +31,7 @@ export default function HomeComponent() {
                                 <h2>Canadian Pacific Regional</h2>
                                 <p>On March 6th, 2019, at the save-on memorial center we competed against 35 teams in the FIRST Canadian Pacific Regional Robotics Competition in Victoria, BC. Here, we managed to win the Rookie all Star award that let us compete in the championship robotics competition in Houstan, Texas</p>
                                 <Link href="https://www.thebluealliance.com/team/7787" target="_blank" rel="noreferrer">
-                                    <button>See More</button>
+                                    <button>Learn More</button>
                                 </Link>
                             </div>
                         </div>
@@ -43,7 +43,7 @@ export default function HomeComponent() {
                                 <h2>Championship</h2>
                                 <p>On April 17, 2019, at the George Brown Convention Center we competed against 70 internation teams in the FIRST Houston Championship Robotics Competition in well Houston. Sadly we did not qualify but we had so much fun participating against the best of the best!</p>
                                 <Link href="https://www.thebluealliance.com/team/7787" target="_blank" rel="noreferrer">
-                                    <button>See More</button>
+                                    <button>Learn More</button>
                                 </Link>
                             </div>
                         </div>
@@ -83,7 +83,7 @@ export default function HomeComponent() {
                         <h3>Way More Than Just Building Robots</h3>
                         <p className="aboutDescription">The Reynolds Reybots club is not just about building robots. It’s about working in the community, teaching the fundamentals of STEM and inspiring others! All of our students learn so much by getting hands-on with actually building something and collaborating with others! Many of our students grow up and decided to pursue passions in the area of STEM or just use the skills they used while building the robot like creativity and collaboration!</p>
                         <Link href="https://www.thebluealliance.com/team/7787" target="_blank" rel="noreferrer">
-                            <button>See More</button>
+                            <button>Learn More</button>
                         </Link>
                     </div>
                     <img src="aboutImage.avif" alt="team photo" />
