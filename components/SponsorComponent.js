@@ -9,7 +9,7 @@ export default function SponsorComponent() {
                 <p className="sponsorsHomeDescription">We thank everyone who has helped sponsor our different robots across the years. All our sponsors help advance the education of our students.</p>
                 <p className="sponsorsButtonHeader">Want to Sponsor Us?</p>
                 <button>Contact Us</button>
-                <img src="sponsorsImage.png" alt="sponsorsImage" />
+                <img src="sponsorsImage.avif" alt="sponsorsImage" />
             </section>
             {/* <section className="platinumSponsors sponsorTier">
                 <h2>Platinum</h2>
@@ -23,7 +23,7 @@ export default function SponsorComponent() {
                             <button>Check it Out</button>
                         </div>
                         <div className="sponsorComponentLogo">
-                            <img src="bernhardt.png" alt="Bernhardt Logo" />
+                            <img src="bernhardt.avif" alt="Bernhardt Logo" />
                         </div>
                     </div>
                     <div className="sponsorComponent sponsorComponent2">
@@ -34,7 +34,7 @@ export default function SponsorComponent() {
                             <button>Check it Out</button>
                         </div>
                         <div className="sponsorComponentLogo">
-                            <img src="bernhardt.png" alt="Bernhardt Logo" />
+                            <img src="bernhardt.avif" alt="Bernhardt Logo" />
                         </div>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ export default function SponsorComponent() {
                             <button>Check it Out</button>
                         </div>
                         <div className="sponsorComponentLogo">
-                            <img src="Bramley House Enterprises.png" alt="Bramley House Enterprises Logo" />
+                            <img src="Bramley House Enterprises.avif" alt="Bramley House Enterprises Logo" />
                         </div>
                     </div>
                     <div className="sponsorComponent goldSponsorComponent">
@@ -74,7 +74,7 @@ export default function SponsorComponent() {
                             </Link>
                         </div>
                         <div className="sponsorComponentLogo">
-                            <img src="Howell Data Systems Logo.png" alt="Howell Data Systems Logo" />
+                            <img src="Howell Data Systems Logo.avif" alt="Howell Data Systems Logo" />
                         </div>
                     </div>
                 </div>
@@ -84,7 +84,7 @@ export default function SponsorComponent() {
                 <p className="sponsorTierDescription">Anyone who has donated $500+</p>
                 <div className="silverComponentAlign">
                     <div className="silverComponentSponsor">
-                        <img src="bernhardt.png" alt="bernhardt sponsor" />
+                        <img src="bernhardt.avif" alt="bernhardt sponsor" />
                         <p>bernhardtcontracting.com</p>
                         <p>250 857-2432</p>
                     </div>
@@ -95,13 +95,13 @@ export default function SponsorComponent() {
                 <p className="sponsorTierDescription">Anyone who has donated $200 - $500</p>
                 <div className="silverComponentAlign">
                     <div className="silverComponentSponsor">
-                        <img src="bernhardt.png" alt="bernhardt sponsor" />
+                        <img src="bernhardt.avif" alt="bernhardt sponsor" />
                     </div>
                     <div className="silverComponentSponsor">
-                        <img src="bernhardt.png" alt="bernhardt sponsor" />
+                        <img src="bernhardt.avif" alt="bernhardt sponsor" />
                     </div>
                     <div className="silverComponentSponsor">
-                        <img src="bernhardt.png" alt="bernhardt sponsor" />
+                        <img src="bernhardt.avif" alt="bernhardt sponsor" />
                     </div>
                 </div>
             </section>
@@ -110,16 +110,16 @@ export default function SponsorComponent() {
                 <p className="sponsorTierDescription">Anyone who has donated $50 - $200</p>
                 <div className="silverComponentAlign">
                     <div className="generousComponentSponsor">
-                        <img src="bernhardt.png" alt="bernhardt sponsor" />
+                        <img src="bernhardt.avif" alt="bernhardt sponsor" />
                     </div>
                     <div className="generousComponentSponsor">
-                        <img src="bernhardt.png" alt="bernhardt sponsor" />
+                        <img src="bernhardt.avif" alt="bernhardt sponsor" />
                     </div>
                     <div className="generousComponentSponsor">
-                        <img src="bernhardt.png" alt="bernhardt sponsor" />
+                        <img src="bernhardt.avif" alt="bernhardt sponsor" />
                     </div>
                     <div className="generousComponentSponsor">
-                        <img src="bernhardt.png" alt="bernhardt sponsor" />
+                        <img src="bernhardt.avif" alt="bernhardt sponsor" />
                     </div>
                 </div>
             </section> */}

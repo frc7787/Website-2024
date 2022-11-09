@@ -11,11 +11,11 @@ export default function HomeComponent() {
                     <button className="homeAboutButton">About</button>        
                 </a>
                 <div className="homeImageGrid">
-                    <img src="/1.png" alt="home image" />
-                    <img src="/2.png" alt="home image" />
-                    <img src="/3.png" alt="home image" />
-                    <img src="/5.png" alt="home image" />
-                    <img src="/4.png" alt="home image" />
+                    <img src="/1.avif" alt="home image" />
+                    <img src="/2.avif" alt="home image" />
+                    <img src="/3.avif" alt="home image" />
+                    <img src="/5.avif" alt="home image" />
+                    <img src="/4.avif" alt="home image" />
                 </div>
             </section>
             <section className="competitionsMain" id="competitions">
@@ -25,7 +25,7 @@ export default function HomeComponent() {
                 </div>
                 <div className="allCompetitions">
                     <div className="compeitionElement">
-                        <img src="/compeition1.jpg" className="compeitionElementImage" alt="competition" />
+                        <img src="/compeition1.avif" className="compeitionElementImage" alt="competition" />
                         <div className="competitionElementTextAlign">
                             <div>
                                 <h2>Canadian Pacific Regional</h2>
@@ -37,7 +37,7 @@ export default function HomeComponent() {
                         </div>
                     </div>
                     <div className="compeitionElement compeitionElement2">
-                        <img src="/compeition2.jpg" className="compeitionElementImage" alt="competition" />
+                        <img src="/compeition2.avif" className="compeitionElementImage" alt="competition" />
                         <div className="competitionElementTextAlign">
                             <div>
                                 <h2>Championship</h2>
@@ -60,13 +60,13 @@ export default function HomeComponent() {
                         <img src="/64k Logo.svg" alt="64K Software Sponsor" />
                     </div>
                     <div className="sponsorContainer">
-                        <img src="/Bramley House Enterprises.png" alt="Bramley House Enterprises" />
+                        <img src="/Bramley House Enterprises.avif" alt="Bramley House Enterprises" />
                     </div>
                     <div className="sponsorContainer">
-                        <img src="/Howell Data Systems Logo.png" alt="Howell Data Systems Sponsor" />
+                        <img src="/Howell Data Systems Logo.avif" alt="Howell Data Systems Sponsor" />
                     </div>
                     <div className="sponsorContainer">
-                        <img src="/bernhardt.png" alt="Bernhardt Sponsor" />
+                        <img src="/bernhardt.avif" alt="Bernhardt Sponsor" />
                     </div>
                     <div className="sponsorContainer">
                         <p>Could Be You Here...</p>
@@ -86,7 +86,7 @@ export default function HomeComponent() {
                             <button>See More</button>
                         </Link>
                     </div>
-                    <img src="aboutImage.png" alt="team photo" />
+                    <img src="aboutImage.avif" alt="team photo" />
                 </div>
             </section> 
             <section className="pricingMain" id="pricing">
@@ -107,13 +107,13 @@ export default function HomeComponent() {
                             <div className="pricingComponentBenefits">
                                 <div className="pricingComponentBenefit">
                                     <div>
-                                        <img src="/benefitCheckmark.png" alt="" />
+                                        <img src="/benefitCheckmark.avif" alt="" />
                                     </div>
                                     <p>Your company acknoledged on the sponsors page of our team website!</p>
                                 </div>
                                 <div className="pricingComponentBenefit">
                                     <div>
-                                        <img src="benefitCheckmark.png" alt="" />
+                                        <img src="benefitCheckmark.avif" alt="" />
                                     </div>
                                     <p>Certificate of appreciation that can be displayed at your business!</p>
                                 </div>
@@ -135,19 +135,19 @@ export default function HomeComponent() {
                             <div className="pricingComponentBenefits">
                                 <div className="pricingComponentBenefit">
                                     <div>
-                                        <img src="/benefitCheckmark.png" alt="" />
+                                        <img src="/benefitCheckmark.avif" alt="" />
                                     </div>
                                     <p>We will include contact information, a logo and an active link to your site on our sponsors page!</p>
                                 </div>
                                 <div className="pricingComponentBenefit">
                                     <div>
-                                        <img src="/benefitCheckmark.png" alt="" />
+                                        <img src="/benefitCheckmark.avif" alt="" />
                                     </div>
                                     <p>Certificate of appreciation that can be displayed at your business!</p>
                                 </div>
                                 <div className="pricingComponentBenefit">
                                     <div>
-                                        <img src="/benefitCheckmark.png" alt="" />
+                                        <img src="/benefitCheckmark.avif" alt="" />
                                     </div>
                                     <p>Photo with the Reybots team!</p>
                                 </div>
@@ -169,19 +169,19 @@ export default function HomeComponent() {
                             <div className="pricingComponentBenefits">
                                 <div className="pricingComponentBenefit">
                                     <div>
-                                        <img src="/benefitCheckmark.png" alt="" />
+                                        <img src="/benefitCheckmark.avif" alt="" />
                                     </div>
                                     <p>We will include contact information, a logo and an active link to your site on our sponsors page!</p>
                                 </div>
                                 <div className="pricingComponentBenefit">
                                     <div>
-                                        <img src="/benefitCheckmark.png" alt="" />
+                                        <img src="/benefitCheckmark.avif" alt="" />
                                     </div>
                                     <p>Appreciation plaque that can be displayed at your business!</p>
                                 </div>
                                 <div className="pricingComponentBenefit">
                                     <div>
-                                        <img src="/benefitCheckmark.png" alt="" />
+                                        <img src="/benefitCheckmark.avif" alt="" />
                                     </div>
                                     <p>Photo with the Reybots team!</p>
                                 </div>
@@ -203,31 +203,31 @@ export default function HomeComponent() {
                             <div className="pricingComponentBenefits">
                                 <div className="pricingComponentBenefit">
                                     <div>
-                                        <img src="/benefitCheckmark.png" alt="" />
+                                        <img src="/benefitCheckmark.avif" alt="" />
                                     </div>
                                     <p>Place on the homepage for your company logo and active link!</p>
                                 </div>
                                 <div className="pricingComponentBenefit">
                                     <div>
-                                        <img src="/benefitCheckmark.png" alt="" />
+                                        <img src="/benefitCheckmark.avif" alt="" />
                                     </div>
                                     <p>Inclusion in any social media posts as a logo!</p>
                                 </div>
                                 <div className="pricingComponentBenefit">
                                     <div>
-                                        <img src="/benefitCheckmark.png" alt="" />
+                                        <img src="/benefitCheckmark.avif" alt="" />
                                     </div>
                                     <p>Appreciation plaque that can be displayed at your business!</p>
                                 </div>
                                 <div className="pricingComponentBenefit">
                                     <div>
-                                        <img src="/benefitCheckmark.png" alt="" />
+                                        <img src="/benefitCheckmark.avif" alt="" />
                                     </div>
                                     <p>Team robot demonstration at place of business</p>
                                 </div>
                                 <div className="pricingComponentBenefit">
                                     <div>
-                                        <img src="/benefitCheckmark.png" alt="" />
+                                        <img src="/benefitCheckmark.avif" alt="" />
                                     </div>
                                     <p>Photo with the Reybots team!</p>
                                 </div>
@@ -249,43 +249,43 @@ export default function HomeComponent() {
                             <div className="pricingComponentBenefits">
                                 <div className="pricingComponentBenefit">
                                     <div>
-                                        <img src="/benefitCheckmark.png" alt="" />
+                                        <img src="/benefitCheckmark.avif" alt="" />
                                     </div>
                                     <p>Extra large logo of business on our robot and on our t-shirt design!</p>
                                 </div>
                                 <div className="pricingComponentBenefit">
                                     <div>
-                                        <img src="/benefitCheckmark.png" alt="" />
+                                        <img src="/benefitCheckmark.avif" alt="" />
                                     </div>
                                     <p>Seperate primary sponsor banner at competition and outreach!</p>
                                 </div>
                                 <div className="pricingComponentBenefit">
                                     <div>
-                                        <img src="/benefitCheckmark.png" alt="" />
+                                        <img src="/benefitCheckmark.avif" alt="" />
                                     </div>
                                     <p>Special mention and shoutout as a major sponsor in any of our Media posts and Videos!</p>
                                 </div>
                                 <div className="pricingComponentBenefit">
                                     <div>
-                                        <img src="/benefitCheckmark.png" alt="" />
+                                        <img src="/benefitCheckmark.avif" alt="" />
                                     </div>
                                     <p>Appreciation plaque that can be displayed at your business!</p>
                                 </div>
                                 <div className="pricingComponentBenefit">
                                     <div>
-                                        <img src="/benefitCheckmark.png" alt="" />
+                                        <img src="/benefitCheckmark.avif" alt="" />
                                     </div>
                                     <p>Place on the homepage for your company logo and active link!</p>
                                 </div>
                                 <div className="pricingComponentBenefit">
                                     <div>
-                                        <img src="/benefitCheckmark.png" alt="" />
+                                        <img src="/benefitCheckmark.avif" alt="" />
                                     </div>
                                     <p>Team robot demonstration at place of business</p>
                                 </div>
                                 <div className="pricingComponentBenefit">
                                     <div>
-                                        <img src="/benefitCheckmark.png" alt="" />
+                                        <img src="/benefitCheckmark.avif" alt="" />
                                     </div>
                                     <p>Photo with the Reybots team!</p>
                                 </div>
