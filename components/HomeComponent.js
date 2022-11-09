@@ -62,7 +62,6 @@ export default function HomeComponent() {
                     <div className="sponsorContainer">
                         <img src="/finning.avif" alt="finning sponsor" />
                     </div>
-                    </div>
                     <div className="sponsorContainer">
                         <p>Could Be You Here...</p>
                     </div>
