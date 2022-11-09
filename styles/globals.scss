@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@800&display=swap');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -49,6 +50,7 @@ table {
 $poppins: 'Poppins', sans-serif;
 $montserrat: 'Montserrat', sans-serif;
 $black: #292929;
+$light-black: #696969;
 $white: #FFF;
 
 * {
@@ -65,6 +67,26 @@ html {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
+::selection {
+  color: $white;
+  background: $black;
+}
+::-webkit-scrollbar-track {
+	background: $white;
+}
+::-webkit-scrollbar {
+	width: 15px;
+	overflow: hidden;
+}
+::-webkit-scrollbar-thumb {
+	border: 5px solid rgb(255, 255, 255);
+	background-clip: padding-box;
+	border-radius: 10px;
+	background-color: $black;
+}
+::-webkit-scrollbar-thumb:hover {
+	background-color: rgb(49, 49, 49);
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -74,7 +96,6 @@ nav {
   background: $white;
   padding: 0px 41px;
 }
-
 .navGroup1 {
   display: flex;
   align-items: center;
@@ -714,6 +735,202 @@ footer {
 .onlinePaymentMethod {
   @extend .chequeFormButton;
 }
+.sponsorsHome {
+  margin-top: 70px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  padding: 0px 15px;
+
+  h1 {
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 85px;
+    color: $black;
+    max-width: 880px;
+  }
+  button {
+    @extend .homeAboutButton;
+    margin-top: 13px;
+  }
+
+  img {
+    margin-top: 150px;
+  }
+}
+.sponsorsHomeDescription {
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+  color: #9D9D9D;
+  max-width: 543px;
+}
+.sponsorsButtonHeader {
+  margin-top: 33px;
+  font-weight: 700;
+  font-size: 18px;
+  color: $black;
+}
+.sponsorTier {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 218px;
+
+  h2 {
+    font-weight: 700;
+    font-size: 65px;
+    color: $black;
+  }
+}
+.sponsorTierDescription {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 25px;
+  color: #9D9D9D;
+  line-height: 30px;
+}
+.sponsorComponentAlign {
+  width: 100%;
+  max-width: 1210px;
+  margin-top: 27px;
+}
+.sponsorComponent {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  text-align: left;
+}
+.sponsorNumber {
+  position: absolute;
+  left: -27px;
+  font-weight: 800;
+  font-size: 300px;
+  line-height: 380px;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  color: #F2F2F2;
+  z-index: -1;
+}
+.sponsorComponentHeader {
+  margin-top: 195px;
+  font-weight: 600;
+  font-size: 68px;
+  color: $black;
+  max-width: 454px;
+}
+.sponsorComponentDescription {
+  margin-top: 52px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #BCBCBC;
+  line-height: 30px;
+  max-width: 605px;
+  margin-bottom: 52px;
+}
+.sponsorComponentInformation {
+  position: relative;
+
+  button {
+    width: 230px;
+    height: 61px;
+    background: $black;
+    border-radius: 10px;
+    color: $white;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: background 0.5s;
+
+    &:hover {
+      background: rgb(54, 54, 54);
+    }
+  }
+}
+.sponsorComponentLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 415px;
+  height: 375px;
+  border: 2px solid #F4F4F4;
+  border-radius: 25px;
+
+  img {
+    width: 250px;
+  }
+}
+.sponsorComponent2 {
+  margin-top: 100px;
+  flex-flow: row-reverse;
+}
+.sponsorComponentHeaderGold {
+  font-size: 50px;
+  line-height: 50px;
+  margin-top: 0px;
+}
+.goldSponsorComponent .sponsorComponentInformation {
+  .sponsorComponentHeader {
+    font-size: 50px;
+    line-height: 50px;
+    margin-top: 0px;
+  }
+}
+.silverComponentAlign {
+  margin-top: 91px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1210px;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.silverComponentSponsor {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 356px;
+  height: 323px;
+  border-radius: 25px;
+  border: 2px solid #F4F4F4;
+
+  img {
+    width: 200px;
+  }
+
+  p {
+    margin-top: 15px;
+    color: $light-black;
+  }
+}
+.goldSponsorComponent {
+  margin-top: 125px;
+}
+.generousComponentSponsor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 252px;
+  height: 228px;
+  border-radius: 25px;
+  border: 2px solid #F4F4F4;
+
+  img {
+    width: 150px;
+  }
+}
+.sponsorTier {
+  padding: 0px 25px;
+}
+
 
 
 
@@ -754,6 +971,38 @@ footer {
   .aboutMain {
     padding: 0px 25px;
   }
+  .sponsorsHome img {
+    width: 800px;
+  }
+  .sponsorComponent {
+    flex-flow: column-reverse;
+  }
+  .sponsorComponentInformation {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+  }
+  .sponsorNumber {
+    left: 0;
+    right: 0;
+  }
+  .sponsorComponentAlign {
+    margin-top: 150px;
+  }
+  .sponsorComponent2 {
+    margin-top: 150px;
+  }
+  .goldSponsorComponent:nth-child(1) {
+    margin: 0px;
+  }
+  .goldSponsorComponent .sponsorComponentInformation .sponsorComponentHeader {
+    margin-top: 50px;
+  }
+  .sponsorComponentHeaderGold {
+    margin-top: 50px;
+    font-size: 50px;
+  }
 }
 @media screen and (max-width: 1100px) {
   .homeImageGrid img:nth-child(4) {
@@ -790,6 +1039,9 @@ footer {
   }
   .dropdownElements {
     align-items: center;
+  }
+  .sponsorsHome img {
+    width: 600px;
   }
 }
 @media screen and (max-width: 800px) {
@@ -838,6 +1090,13 @@ footer {
     text-align: center;
     gap: 50px;
   }
+  .sponsorsHome h1 {
+    font-size: 50px;
+    line-height: 65px;
+  }
+  .sponsorsHome img {
+    display: none;
+  }
 }
 @media screen and (max-width: 550px) {
   .compeitionsHeaders {
@@ -878,6 +1137,33 @@ footer {
     height: 52px;
     font-size: 17px;
   }
+  .sponsorTierDescription {
+    font-size: 20px;
+  }
+  .sponsorTier h2 {
+    font-size: 50px;
+  }
+  .sponsorComponentHeader {
+    font-size: 50px;
+  }
+  .sponsorComponentDescription {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .sponsorComponentInformation button {
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+  }
+  .sponsorNumber {
+    font-size: 250px;
+  }
+  .sponsorTier {
+    margin-top: 150px;
+  }
+  .sponsorComponentAlign {
+    margin-top: 100px;
+  }
 }
 @media screen and (max-width: 450px) {
   .compeitionElementImage {
@@ -894,6 +1180,16 @@ footer {
       font-size: 14px;
       line-height: 30px;
     }
+  }
+  .sponsorsHome {
+    h1 {
+      font-size: 35px;
+      line-height: 45px;
+    }
+  }
+  .sponsorsHomeDescription {
+    font-size: 15px;
+    line-height: 30px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -927,6 +1223,24 @@ footer {
   .getStartedBudgetCost {
     padding: 10px 5px;
     font-size: 13px;
+  }
+  .sponsorComponentLogo img {
+    width: 200px;
+  }
+  .sponsorComponentHeader {
+    font-size: 40px;
+  }
+  .sponsorTier {
+    padding: 0px 15px;
+  }
+  .goldSponsorComponent .sponsorComponentInformation .sponsorComponentHeader {
+    font-size: 40px;
+  }
+  .sponsorNumber {
+    font-size: 200px;
+  }
+  nav {
+    padding: 0px 30px;
   }
 }
 @media screen and (max-width: 325px) {
