@@ -11,22 +11,24 @@ export default function SponsorComponent() {
                 <button>Contact Us</button>
                 <img src="sponsorsImage.avif" alt="sponsorsImage" />
             </section>
-            {/* <section className="platinumSponsors sponsorTier">
+            <section className="platinumSponsors sponsorTier">
                 <h2>Platinum</h2>
                 <p className="sponsorTierDescription">Anyone who has donated $5000+</p>
                 <div className="sponsorComponentAlign">
                     <div className="sponsorComponent">
                         <div className="sponsorComponentInformation">
                             <p className="sponsorNumber">1</p>
-                            <p className="sponsorComponentHeader">Prime Engineering</p>
-                            <p className="sponsorComponentDescription">Prime Engineering is a full service electrical engineering firm specializing in power system design and commissioning. They offer their clients design-build services for complete electrical turnkey solutions.</p>
-                            <button>Check it Out</button>
+                            <p className="sponsorComponentHeader">Komodo Company</p>
+                            <p className="sponsorComponentDescription">Based in Tokyo and Honolulu, we bring games, stories, and technology that make a difference to the world through the universal language of play. world through the universal language of play.</p>
+                            <Link href="https://komodo.jp/">
+                                <button>Check it Out</button>
+                            </Link>
                         </div>
                         <div className="sponsorComponentLogo">
-                            <img src="bernhardt.avif" alt="Bernhardt Logo" />
+                            <img src="Komodo.avif" alt="Komodo Logo" />
                         </div>
                     </div>
-                    <div className="sponsorComponent sponsorComponent2">
+                    {/* <div className="sponsorComponent sponsorComponent2">
                         <div className="sponsorComponentInformation">
                             <p className="sponsorNumber">2</p>
                             <p className="sponsorComponentHeader">Prime Engineering</p>
@@ -36,9 +38,9 @@ export default function SponsorComponent() {
                         <div className="sponsorComponentLogo">
                             <img src="bernhardt.avif" alt="Bernhardt Logo" />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
-            </section> */}
+            </section>
             <section className="goldSponsors sponsorTier">
                 <h2>Gold</h2>
                 <p className="sponsorTierDescription">Anyone who has donated $1000+</p>

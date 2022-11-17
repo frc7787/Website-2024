@@ -1,0 +1,19 @@
+{
+    "mainHeader": "Education for the Future Generation",
+    "homeDescription": "Our teams central mission is to inspire the future generation and to educate them in the principals of STEM and the ideals of FIRST!",
+    "homeImage1": "/1.avif",
+    "homeImage2": "/2.avif",
+    "homeImage3": "/3.avif",
+    "homeImage4": "/4.avif",
+    "homeImage5": "/5.avif",
+    "competitionsHeaderDescription": "A collection of our past entries into the FIRST high school robotics/technology competition!",
+    "homeCompetitions": [
+        {
+            "name": "Canadian Pacific Regionals",
+            "competitionDescription": "On March 6th, 2019, at the save-on memorial center we competed against 35 teams in the FIRST Canadian Pacific Regional Robotics Competition in Victoria, BC. Here, we managed to win the Rookie all Star award that let us compete in the championship robotics competition in Houstan, Texas"
+        },
+        {
+            "name": "Championships"
+        }
+    ]
+}

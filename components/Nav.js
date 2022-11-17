@@ -55,7 +55,7 @@ export default function Nav() {
                         </div>
                     </Link>
                 </div>
-                <svg width="27" height="22" viewBox="0 0 27 22" fill="none" xmlns="http://www.w3.org/2000/svg" class={dropdownState ? "navHamburger" : "navHamburger navHamburgerOpen"} onClick={() => changeDropdownStateFunction(!dropdownState)}>
+                <svg width="27" height="22" viewBox="0 0 27 22" fill="none" xmlns="http://www.w3.org/2000/svg" className={dropdownState ? "navHamburger" : "navHamburger navHamburgerOpen"} onClick={() => changeDropdownStateFunction(!dropdownState)}>
                     <rect width="27" height="4" rx="2"></rect>
                     <rect y="18" width="27" height="4" rx="2"></rect>
                     <rect x="11" y="9" width="16" height="4" rx="2"></rect>

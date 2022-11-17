@@ -57,6 +57,9 @@ export default function HomeComponent() {
                 </div>
                 <div className="sponsorsSection">
                     <div className="sponsorContainer">
+                        <img src="/Komodo.avif" alt="Komodo Sponsor" />
+                    </div>
+                    <div className="sponsorContainer">
                         <img src="/64k Logo.svg" alt="64K Software Sponsor" />
                     </div>
                     <div className="sponsorContainer">
@@ -67,9 +70,6 @@ export default function HomeComponent() {
                     </div>
                     <div className="sponsorContainer">
                         <img src="/bernhardt.avif" alt="Bernhardt Sponsor" />
-                    </div>
-                    <div className="sponsorContainer">
-                        <p>Could Be You Here...</p>
                     </div>
                     <div className="sponsorContainer">
                         <p>Could Be You Here...</p>
