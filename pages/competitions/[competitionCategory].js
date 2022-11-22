@@ -7,7 +7,7 @@ import Head from "next/head"
 import Footer from "../../components/Footer"
 
 
-export default function competitionCategory() {
+export default function CompetitionCategory() {
     const router = useRouter()
     const slug = router.query.competitionCategory
     
