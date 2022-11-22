@@ -17,7 +17,7 @@ export default function Nav() {
             <nav>
                 <Link href="/#home">
                     <div className="navGroup1">
-                        <img src="logo.svg" alt="reybots logo" />
+                        <img src="/logo.svg" alt="reybots logo" />
                         <p>Reybots</p>
                     </div>
                 </Link>
@@ -27,7 +27,7 @@ export default function Nav() {
                             <p>Home</p>
                         </div>
                     </Link>
-                    <Link href="/#competitions">
+                    <Link href="/competitions">
                         <div className="navElementContainer">
                             <p>Competitions</p>
                         </div>
@@ -66,7 +66,7 @@ export default function Nav() {
                     <Link href="/#home" onClick={() => changeDropdownStateFunction(!dropdownState)}>
                         <p className="dropdownElement">Home</p>
                     </Link>
-                    <Link href="/#competition" onClick={() => changeDropdownStateFunction(!dropdownState)}>
+                    <Link href="/competitions" onClick={() => changeDropdownStateFunction(!dropdownState)}>
                         <p className="dropdownElement">Competitions</p>
                     </Link>
                     <Link href="/#sponsors" onClick={() => changeDropdownStateFunction(!dropdownState)}>
@@ -84,11 +84,11 @@ export default function Nav() {
                     <div className="dropdownSocials">
                         <Link href="https://www.instagram.com/reynoldsreybots/" target="_blank" rel="noreferrer">
                             <button className="socialButton" aria-label="Instagram Social Link" >
-                                <i class="fa-brands fa-instagram"></i>
+                                <i className="fa-brands fa-instagram"></i>
                             </button>
                         </Link>
                         <button className="socialButton" aria-label="Youtube Social Link" >
-                            <i class="fa-brands fa-youtube"></i>
+                            <i className="fa-brands fa-youtube"></i>
                         </button>
                     </div>
                 </div>

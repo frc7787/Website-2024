@@ -4,6 +4,7 @@ import Footer from "../components/Footer"
 import Head from "next/head"
 
 export default function Home() {
+  // WORKING ON SLUG REMEMEBER JKFWHNFJKNWGIUJBK WGKJWBGK >WKGNWG
   return (
     <main>
       <Head>

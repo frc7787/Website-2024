@@ -370,7 +370,7 @@ nav {
 }
 .pricingComponentPricingHeader {
   font-weight: 600;
-  font-size: 55px;
+  font-size: 35px;
   color: $black;
 }
 .pricingComponentPricingToAndYear {
@@ -936,6 +936,66 @@ footer {
 .sponsorTier {
   padding: 0px 25px;
 }
+.competitionMainAlign {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 125px;
+}
+.competitions {
+  width: 100%;
+  max-width: 776px;
+  padding: 0px 25px;
+
+  h1 {
+    font-weight: 600;
+    font-size: 40px;
+  }
+
+  button {
+    border: 2px solid $white;
+    border-radius: 5px;
+    margin-top: 35px;
+    width: 182px;
+    height: 42px;
+    background: transparent;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    color: $white;
+    transition: background 0.5s, color 0.5s;
+
+    &:hover {
+      background: $white;
+      color: $black;
+    }
+  }
+}
+.competitionCard {
+  width: 100%;
+  padding: 22px 29px;
+  background: $black;
+  border-radius: 25px;
+}
+.competitionCards {
+  margin-top: 60px;
+  display: flex;
+  flex-flow: column;
+  gap: 27px;
+}
+.competitionCardHeader {
+  font-weight: 600;
+  font-size: 22px;
+  color: $white;
+}
+.competitionCardDescription {
+  margin-top: 23px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #9E9E9E;
+  line-height: 23px;
+}
+
 
 
 
@@ -1215,6 +1275,13 @@ footer {
       width: 300px;
     }
   }
+  .competitions {
+    padding: 0px 10px;
+    
+    h1 {
+      font-size: 35px;
+    }
+  }
 }
 @media screen and (max-width: 350px) {
   .dropdownSocials {
@@ -1256,8 +1323,10 @@ footer {
   .pricingComponentPlatinum {
     height: 780px;
   }
+  .pricingComponentPricingHeader {
+    font-size: 30px;
+  }
 }
-
 
 
 @media screen and (max-height: 875px) {

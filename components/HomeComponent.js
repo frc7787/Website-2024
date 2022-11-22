@@ -100,8 +100,8 @@ export default function HomeComponent() {
                         <div className="pricingComponentRelative">
                             <div className="pricingComponentSubheader">FRIENDS</div>
                             <div className="pricingComponentPricing">
-                                <p className="pricingComponentPricingHeader">$50</p>
-                                <p className="pricingComponentPricingToAndYear">-200 / Year</p>
+                                <p className="pricingComponentPricingHeader">$50 to 199</p>
+                                <p className="pricingComponentPricingToAndYear">/ Year</p>
                             </div>
                             <div className="seperationLine"></div>
                             <div className="pricingComponentBenefits">
@@ -128,8 +128,8 @@ export default function HomeComponent() {
                         <div className="pricingComponentRelative">
                             <div className="pricingComponentSubheader">GENEROUS</div>
                             <div className="pricingComponentPricing">
-                                <p className="pricingComponentPricingHeader">$200</p>
-                                <p className="pricingComponentPricingToAndYear">-500 / Year</p>
+                                <p className="pricingComponentPricingHeader">$200 to 499</p>
+                                <p className="pricingComponentPricingToAndYear">/ Year</p>
                             </div>
                             <div className="seperationLine"></div>
                             <div className="pricingComponentBenefits">
@@ -162,8 +162,8 @@ export default function HomeComponent() {
                         <div className="pricingComponentRelative">
                             <div className="pricingComponentSubheader">SILVER</div>
                             <div className="pricingComponentPricing">
-                                <p className="pricingComponentPricingHeader">$500</p>
-                                <p className="pricingComponentPricingToAndYear">+ / Year</p>
+                                <p className="pricingComponentPricingHeader">$500+</p>
+                                <p className="pricingComponentPricingToAndYear">/ Year</p>
                             </div>
                             <div className="seperationLine"></div>
                             <div className="pricingComponentBenefits">
@@ -196,8 +196,8 @@ export default function HomeComponent() {
                         <div className="pricingComponentRelative">
                             <div className="pricingComponentSubheader">GOLD</div>
                             <div className="pricingComponentPricing">
-                                <p className="pricingComponentPricingHeader">$1000</p>
-                                <p className="pricingComponentPricingToAndYear">+ / Year</p>
+                                <p className="pricingComponentPricingHeader">$1000+</p>
+                                <p className="pricingComponentPricingToAndYear">/ Year</p>
                             </div>
                             <div className="seperationLine"></div>
                             <div className="pricingComponentBenefits">
@@ -242,8 +242,8 @@ export default function HomeComponent() {
                         <div className="pricingComponentRelative">
                             <div className="pricingComponentSubheader">PLATINUM</div>
                             <div className="pricingComponentPricing">
-                                <p className="pricingComponentPricingHeader">$5000</p>
-                                <p className="pricingComponentPricingToAndYear">+ / Year</p>
+                                <p className="pricingComponentPricingHeader">$5000+</p>
+                                <p className="pricingComponentPricingToAndYear">/ Year</p>
                             </div>
                             <div className="seperationLine"></div>
                             <div className="pricingComponentBenefits">
