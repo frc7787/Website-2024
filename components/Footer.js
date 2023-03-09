@@ -11,7 +11,7 @@ export default function Footer() {
             <div className="footerElements">
                 <div className="footerElement1">
                     <p className="footerContactSubheader">Contact Us</p>
-                    <Link href="mailto:kkarim@sd61.bc.ca" target="_blank" rel="noreferrer">
+                    <Link href="mailto:reybots7787@gmail.com" target="_blank" rel="noreferrer">
                         <p className="footerContactEmail">reybots7787@gmail.com</p>
                     </Link>
                 </div>
