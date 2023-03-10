@@ -190,6 +190,24 @@ nav {
   justify-content: space-between;
   align-items: center;
   gap: 14px;
+
+  img {
+    border-radius: 25px;
+    width: 250px;
+    object-fit: cover;
+  }
+
+  img:nth-child(1), img:nth-child(5) {
+    height: 387px;
+  }
+
+  img:nth-child(2), img:nth-child(4) {
+    height: 250px;
+  }
+
+  img:nth-child(3) {
+    height: 154px;
+  }
 }
 .competitionsMain {
   margin-top: 175px;
