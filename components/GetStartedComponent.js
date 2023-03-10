@@ -113,7 +113,7 @@ export default function GetStartedComponent() {
                             <li>As we become a more senior team, some of the grants offered by FIRST are less available, and our expenses can jump significantly when we qualify for World&apos;s down in Houston.</li>
                             <li>You can help us in several ways:</li>
                             <ul>
-                                <li>Be a donor: this is eligible for tax receipts if done through the school district. Details can be found in the button link to the right and you will be included with other individuals and companies in the donor section of our webpage if you wish.</li>
+                                <li>Be a donor: this is eligible for tax receipts if done through the school district. Details can be found in the button down below and you will be included with other individuals and companies in the donor section of our webpage if you wish.</li>
                                 <li>Be a Sponsor: for Canada Revenue Agency Purposes this is separated from regular donors as it comes with a form of expected benefit. Sponsors are not eligible for a tax receipt through the school district. If you want to be a sponsor, discuss directly with us how much you would want to sponsor to have your name displayed on our robots, shirts and online materials. </li>
                                 <li>Pledge funds: One of our biggest financial difficulties is not knowing if we will qualify for world championships, and then having to frantically obtain funds. If you or your company are willing to pledge funds conditinally if we qualify, either as a donor or sponsor, please reach out to us directly.</li>
                             </ul>
