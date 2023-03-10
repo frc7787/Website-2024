@@ -18,11 +18,11 @@ export default function Footer() {
                 <div className="footerElement2">
                     <Link href="https://www.instagram.com/reynoldsreybots/" target="_blank" rel="noreferrer" >
                         <button className="socialButton" aria-label="Instagram Link">
-                            <i class="fa-brands fa-instagram"></i>
+                            <i className="fa-brands fa-instagram"></i>
                         </button>
                     </Link>
                     <button className="socialButton" aria-label="Youtube Link" >
-                        <i class="fa-brands fa-youtube"></i>
+                        <i className="fa-brands fa-youtube"></i>
                     </button>
                 </div>
             </div>
