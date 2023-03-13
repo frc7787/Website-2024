@@ -29,8 +29,8 @@ export default function HomeComponent() {
                         <div className="competitionElementTextAlign">
                             <div>
                                 <h2>Canadian Pacific Regional</h2>
-                                <p>On March 6th, 2019, at the save-on memorial center we competed against 35 teams in the FIRST Canadian Pacific Regional Robotics Competition in Victoria, BC. Here, we managed to win the Rookie all Star award that let us compete in the championship robotics competition in Houstan, Texas</p>
-                                <Link href="https://www.thebluealliance.com/team/7787" target="_blank" rel="noreferrer">
+                                <p>In February, at the save-on memorial center we competed against teams in the FIRST Canadian Pacific Regional Robotics Competition in Victoria, BC.</p>
+                                <Link href="https://www.thebluealliance.com/event/2023bcvi" target="_blank" rel="noreferrer">
                                     <button className="competitionViewButton">View on Blue Alliance</button>
                                 </Link>
                             </div>
@@ -40,10 +40,10 @@ export default function HomeComponent() {
                         <img src="/compeition2.avif" className="compeitionElementImage" alt="competition" />
                         <div className="competitionElementTextAlign">
                             <div>
-                                <h2>Championship</h2>
-                                <p>On April 17, 2019, at the George Brown Convention Center we competed against 70 internation teams in the FIRST Houston Championship Robotics Competition in well Houston. Sadly we did not qualify but we had so much fun participating against the best of the best!</p>
-                                <Link href="https://www.thebluealliance.com/team/7787" target="_blank" rel="noreferrer">
-                                    <button className="competitionViewButton">View on Blue Alliance</button>
+                                <h2>BC Provincial Championship</h2>
+                                <p>Recently one of our two teams had an exciting win at the FIRST Tech Challenge Provincials in Surrey, BC. As a result, we have earned the incredible opportunity to go to the World Championships in Houston, Texas, this April.</p>
+                                <Link href="/get-started" target="_blank" rel="noreferrer">
+                                    <button className="competitionViewButton">Sponsor Us Now</button>
                                 </Link>
                             </div>
                         </div>
