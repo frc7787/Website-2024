@@ -21,9 +21,11 @@ export default function Footer() {
                             <i className="fa-brands fa-instagram"></i>
                         </button>
                     </Link>
-                    <button className="socialButton" aria-label="Youtube Link" >
-                        <i className="fa-brands fa-youtube"></i>
-                    </button>
+                    <Link href="https://www.tiktok.com/@reybots7787?_t=8acNpBsmYNh&_r=1" target="_blank" rel="noreferrer" >
+                        <button className="socialButton" aria-label="Youtube Link" >
+                            <i className="fa-brands fa-tiktok"></i>
+                        </button>
+                    </Link>
                 </div>
             </div>
         </footer>
