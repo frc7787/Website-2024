@@ -9,6 +9,12 @@ export default function Ftc(props) {
                     <h1>FTC Competitions</h1>
                     <div className="competitionCards">
                         <CompetitionCard 
+                            header="FTC British Columbia Championships 2023"
+                            description="Recently one of our two teams had an exciting win at the FIRST Tech Challenge Provincials in Surrey, BC. As a result, we have earned the incredible opportunity to go to the World Championships in Houston, Texas, this April."
+                            link="https://ftc-events.firstinspires.org/2022/CABCCMP"
+                            slug={props.slug}
+                        />
+                        <CompetitionCard 
                             header="FTC British Columbia Championships 2022"
                             description="After Qualification Rounds, 16353 finished 3 rd with a 5-0-0 record and 18840 finished 7 th . 16353 was the captain of Alliance Seed 3 and chose 18840 (The Reynolds Super Alliance) and 18589 for their alliance. They won their semifinal 2-0 but lost 0-2 in the Finals. 16353 were the winners of the Innovate Award."
                             link="https://ftc-events.firstinspires.org/2021/CABCCMP/playoffs"
