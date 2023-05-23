@@ -72,7 +72,52 @@ export default function HomeComponent() {
                         <img src="/bernhardt.avif" alt="Bernhardt Sponsor" />
                     </div>
                     <div className="sponsorContainer">
-                        <p>Could Be You Here...</p>
+                        <img src="/49 below_371.webp" alt="49 Below Sponsor" />
+                    </div>
+                    <div className="sponsorContainer">
+                        <img src="/Actuonix_500.png" alt="Actuonix Sponsor" />
+                    </div>
+                    <div className="sponsorContainer">
+                        <img src="/Ally and Dennis_1000.png" alt="Ally and Dennis" />
+                    </div>
+                    <div className="sponsorContainer">
+                        <img src="/Anthony Spick_300.png" alt="Anthony Spick" />
+                    </div>
+                    <div className="sponsorContainer">
+                        <img src="/Coast Capital_200.png" alt="Coast Capital" />
+                    </div>
+                    <div className="sponsorContainer">
+                        <img src="/Country_Grocer_500.png" alt="Country Grocer" />
+                    </div>
+                    <div className="sponsorContainer">
+                        <img src="/Focal Engineering_100.png" alt="Focal Engineering" />
+                    </div>
+                    <div className="sponsorContainer">
+                        <img src="/Frontera_250.png" alt="Frontera" />
+                    </div>
+                    <div className="sponsorContainer">
+                        <img src="/Island Chef_500.png" alt="Island Chef" />
+                    </div>
+                    <div className="sponsorContainer">
+                        <img src="/Knappett_500.jfif" alt="Knappett" />
+                    </div>
+                    <div className="sponsorContainer">
+                        <img src="/Mac_600.avif" alt="Mac" />
+                    </div>
+                    <div className="sponsorContainer">
+                        <img src="/Redbrick_1000.jpg" alt="Redbrick" />
+                    </div>
+                    <div className="sponsorContainer">
+                        <img src="/Stasuk_500.png" alt="Stasuk" />
+                    </div>
+                    <div className="sponsorContainer">
+                        <img src="/Stevenson_300.jpg" alt="Stevenson" />
+                    </div>
+                    <div className="sponsorContainer">
+                        <img src="/UVIC_2500.svg" alt="UVIC" />
+                    </div>
+                    <div className="sponsorContainer">
+                        <img src="/Viatec_1000.png" alt="Viatec" />
                     </div>
                 </div>
             </section>

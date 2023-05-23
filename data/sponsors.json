@@ -1,0 +1,134 @@
+[
+    {
+        "name": "Komodo Company",
+        "description": "Based in Tokyo and Honolulu, we bring games, stories, and technology that make a difference to the world through the universal language of play. world through the universal language of play.",
+        "websiteLink": "https://komodo.jp/",
+        "logo": "/Komodo.avif",
+        "amountDonated": 5000
+    },
+    {
+        "name": "64K Software",
+        "description": "64K Software's expertise is primarily in systems-level software and back-end services in support of SaaS platforms. However, from technical architecture and startup advisory down to opening up the command line, they're able to work with you to coax out what you really need and how to do it.",
+        "websiteLink": "https://64k.software/",
+        "logo": "/64k Logo.svg",
+        "amountDonated": 2000
+    },
+    {
+        "name": "Bramley House Enterprises",
+        "description": "Bramley House Enterprises is a holding company. There is currently not enough information on them!",
+        "logo": "/Bramley House Enterprises.avif",
+        "amountDonated": 2000
+    },
+    {
+        "name": "Howell Data Systems",
+        "description": "Whatever business challenge you need to address, HDS offers all of the necessary components for your business to excel in today’s rapidly-evolving retail environment.",
+        "websiteLink": "https://www.howelldatasystems.com/",
+        "logo": "/Howell Data Systems Logo.avif",
+        "amountDonated": 2000
+    },
+    {
+        "name": "Ally and Dennis",
+        "description": "Bramley House Enterprises is a holding company. There is currently not enough information on them!",
+        "websiteLink": "https://allyanddennis.com/",
+        "logo": "/Ally and Dennis_1000.png",
+        "amountDonated": 2000
+    },
+    {
+        "name": "49 Below Ice Cream",
+        "description": "49 Below Ice Cream - made for ice cream lovers.",
+        "websiteLink": "https://www.49below.ca/",
+        "logo": "/49 below_371.png",
+        "amountDonated": 371
+    },
+    {
+        "name": "Actuonix",
+        "description": "We strive to offer the widest range of micro actuators available to suit any project.",
+        "websiteLink": "https://www.actuonix.com/",
+        "logo": "/Actuonix_500.png",
+        "amountDonated": 500
+    },
+    {
+        "name": "Anthony Spick",
+        "description": "With over 20 years of industry experience and perspective, Anthony Spick turns project potential into reality.",
+        "websiteLink": "https://anthonyspick.com/",
+        "logo": "/Anthony Spick_300.png",
+        "amountDonated": 300
+    },
+    {
+        "name": "Coast Capital",
+        "description": "Coast Capital Savings Federal Credit Union is a member-owned financial co-operative headquartered in Surrey, British Columbia.",
+        "websiteLink": "https://www.coastcapitalsavings.com/",
+        "logo": "/Coast Capital_200.png",
+        "amountDonated": 200
+    },
+    {
+        "name": "Country Grocer",
+        "description": "Vancouver Island and Salt Spring Island family-owned grocery chain",
+        "websiteLink": "https://www.countrygrocer.com/",
+        "logo": "/Country_Grocer_500.png",
+        "amountDonated": 500
+    },
+    {
+        "name": "Focal Engineering",
+        "description": "Established in 2015 and headquartered in Victoria, we provide building engineering consulting services internationally.",
+        "websiteLink": "https://www.focaleng.com/",
+        "logo": "/Focal Engineering_100.png",
+        "amountDonated": 100
+    },
+    {
+        "name": "Frontera",
+        "description": "Victoria, BC based custom home and renovation specialist focusing on green building, heritage remodels and architecturally-driven, residential construction.",
+        "websiteLink": "https://fronterahomes.ca/",
+        "logo": "/Frontera_250.png",
+        "amountDonated": 250
+    },
+    {
+        "name": "Island Chef",
+        "description": "Island Chef Pepper Co was founded on the belief that hot pepper products shouldn't just be spicy, but also delicious.",
+        "websiteLink": "https://www.islandchefpepperco.ca/",
+        "logo": "/Island Chef_500.png",
+        "amountDonated": 500
+    },
+    {
+        "name": "Mac Renovations",
+        "description": "At MAC Renovations, we renovate homes and build relationships.",
+        "websiteLink": "https://macreno.com/",
+        "logo": "/Mac_600.avif",
+        "amountDonated": 600
+    },
+    {
+        "name": "Redbrick",
+        "description": "What began in an intimate, red-brick office of software developers has grown into a global name of disruptive tech-first companies.",
+        "websiteLink": "https://rdbrck.com/",
+        "logo": "/Redbrick_1000.jpg",
+        "amountDonated": 1000
+    },
+    {
+        "name": "Stasuk",
+        "description": "NDE/NDT Service Providor of Industrial Radiography, Ultrasonic, Magnetic Particle, liquid penetrant, Eddy current, IRIS and advanced testing methods.",
+        "websiteLink": "https://www.nde.net/",
+        "logo": "/Stasuk_500.png",
+        "amountDonated": 500
+    },
+    {
+        "name": "Stevenson, Luchies & Legh",
+        "description": "Stevenson Luchies & Legh; 25 years of experience with offices in Victoria, Nanaimo and the West Shore. Servicing all of British Columbia.",
+        "websiteLink": "https://sll.ca/",
+        "logo": "/Stevenson_300.jpg",
+        "amountDonated": 300
+    },
+    {
+        "name": "UVIC",
+        "description": "The University of Victoria. The UVic Edge is where dynamic learning and vital impact meet, in Canada's most extraordinary environment.",
+        "websiteLink": "https://www.uvic.ca/",
+        "logo": "/UVIC_2500.svg",
+        "amountDonated": 2500
+    },
+    {
+        "name": "Viatec",
+        "description": "VIATEC is committed to enhancing equity and diversity in the tech sector in Greater Victoria. Our mandate is to cultivate the most cohesive tech community.",
+        "websiteLink": "https://www.viatec.ca/",
+        "logo": "/Viatec_1000.png",
+        "amountDonated": 1000
+    }
+]

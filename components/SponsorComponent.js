@@ -1,7 +1,110 @@
 import React from "react"
 import Link from "next/link"
+import Sponsors from "../data/sponsors.json"
+
+export function SponsorPlatinum(props) {
+    const reversedSponsorElement = props.placement % 2 ? true : false
+
+    return (
+        <div className={`sponsorComponent ${!reversedSponsorElement ? "sponsorComponent2" : ""}`}>
+            <div className="sponsorComponentInformation">
+                <p className="sponsorNumber">{props.placement}</p>
+                <p className="sponsorComponentHeader">{props.name}</p>
+                <p className="sponsorComponentDescription">{props.description}</p>
+                <Link href={props.websiteLink}>
+                    <button>Check it Out</button>
+                </Link>
+            </div>
+            <div className="sponsorComponentLogo">
+                <img src={props.logo} />
+            </div>
+        </div>
+    )
+}
+
+export function SponsorGold(props) {
+    const reversedSponsorElement = props.placement % 2 ? true : false
+
+    console.log(props.placement)
+
+    return (
+        <div className={`sponsorComponent goldSponsorComponent ${!reversedSponsorElement ? "sponsorComponent2" : ""}`}>
+            <div className="sponsorComponentInformation">
+                <p className="sponsorComponentHeader">{props.name}</p>
+                <p className="sponsorComponentDescription">{props.description}</p>
+                <Link href={props.websiteLink} target="_blank" rel="noreferrer" className="sponsorButtonLink">
+                    <button>Check it Out</button>
+                </Link>
+            </div>
+            <div className="sponsorComponentLogo">
+                <img src={props.logo} />
+            </div>
+        </div>
+    )
+}
+
+export function SponsorSilver(props) {
+    return (
+        <div className="silverComponentSponsor">
+            <img src={props.logo} />
+            <p>{props.websiteLink}</p>
+        </div>
+    )
+}
 
 export default function SponsorComponent() {
+    const [platinumSponsors, setPlatinumSponsors] = React.useState([])
+    const [goldSponsors, setGoldSponsors] = React.useState([])
+    const [silverSponsors, setSilverSponsors] = React.useState([])
+
+    React.useEffect(() => {
+        Sponsors.map((sponsor, index) => {
+            // Split the sponsors into different pricing categories
+            const sponsorAmount = sponsor.amountDonated
+
+            if (sponsorAmount >= 5000) {
+                // Platinum
+                const platinumSponsorElement = (
+                    <SponsorPlatinum 
+                        placement={platinumSponsors.length + 1}
+                        name={sponsor.name}
+                        description={sponsor.description}
+                        websiteLink={sponsor.websiteLink ? sponsor.websiteLink : ""}
+                        logo={sponsor.logo}
+                        key={index}
+                    />
+                )
+
+                setPlatinumSponsors(currentElements => [...currentElements, platinumSponsorElement])
+            } else if (sponsorAmount < 5000 && sponsorAmount >= 1000) {
+                // Gold
+                const goldSponsorElement = (
+                    <SponsorGold
+                        placement={goldSponsors.length + 1}
+                        name={sponsor.name}
+                        description={sponsor.description}
+                        websiteLink={sponsor.websiteLink ? sponsor.websiteLink : ""}
+                        logo={sponsor.logo}
+                        key={index}
+                    />
+                )
+
+                setGoldSponsors(currentElements => [...currentElements, goldSponsorElement])
+            } else {
+                // Silver
+                const silverSponsorElement = (
+                    <SponsorSilver
+                        websiteLink={sponsor.websiteLink ? sponsor.websiteLink : ""}
+                        logo={sponsor.logo}
+                        key={index}
+                    />
+                )
+
+                setSilverSponsors(currentElements => [...currentElements, silverSponsorElement])
+            }
+        })
+    }, [])
+
     return (
         <main>
             <section className="sponsorsHome">
@@ -15,81 +118,21 @@ export default function SponsorComponent() {
                 <h2>Platinum</h2>
                 <p className="sponsorTierDescription">Anyone who has donated $5000+</p>
                 <div className="sponsorComponentAlign">
-                    <div className="sponsorComponent">
-                        <div className="sponsorComponentInformation">
-                            <p className="sponsorNumber">1</p>
-                            <p className="sponsorComponentHeader">Komodo Company</p>
-                            <p className="sponsorComponentDescription">Based in Tokyo and Honolulu, we bring games, stories, and technology that make a difference to the world through the universal language of play. world through the universal language of play.</p>
-                            <Link href="https://komodo.jp/">
-                                <button>Check it Out</button>
-                            </Link>
-                        </div>
-                        <div className="sponsorComponentLogo">
-                            <img src="Komodo.avif" alt="Komodo Logo" />
-                        </div>
-                    </div>
-                    {/* <div className="sponsorComponent sponsorComponent2">
-                        <div className="sponsorComponentInformation">
-                            <p className="sponsorNumber">2</p>
-                            <p className="sponsorComponentHeader">Prime Engineering</p>
-                            <p className="sponsorComponentDescription">Prime Engineering is a full service electrical engineering firm specializing in power system design and commissioning. They offer their clients design-build services for complete electrical turnkey solutions.</p>
-                            <button>Check it Out</button>
-                        </div>
-                        <div className="sponsorComponentLogo">
-                            <img src="bernhardt.avif" alt="Bernhardt Logo" />
-                        </div>
-                    </div> */}
+                    {platinumSponsors}
                 </div>
             </section>
             <section className="goldSponsors sponsorTier">
                 <h2>Gold</h2>
                 <p className="sponsorTierDescription">Anyone who has donated $1000+</p>
                 <div className="sponsorComponentAlign">
-                    <div className="sponsorComponent goldSponsorComponent">
-                        <div className="sponsorComponentInformation">
-                            <p className="sponsorComponentHeader">64K Software</p>
-                            <p className="sponsorComponentDescription">64K Software&apos;s expertise is primarily in systems-level software and back-end services in support of SaaS platforms. However, from technical architecture and startup advisory down to opening up the command line, they&apos;re able to work with you to coax out what you really need and how to do it. </p>
-                            <Link href="https://64k.software/" target="_blank" rel="noreferrer" className="sponsorButtonLink">
-                                <button>Check it Out</button>
-                            </Link>
-                        </div>
-                        <div className="sponsorComponentLogo">
-                            <img src="64k Logo.svg" alt="64K Software Logo" />
-                        </div>
-                    </div>
-                    <div className="sponsorComponent sponsorComponent2">
-                        <div className="sponsorComponentInformation">
-                            <p className="sponsorComponentHeader sponsorComponentHeaderGold">Bramley House Enterprises</p>
-                            <p className="sponsorComponentDescription">Bramley House Enterprises is a holding company. There is currently not enough information on them!</p>
-                            <button>Check it Out</button>
-                        </div>
-                        <div className="sponsorComponentLogo">
-                            <img src="Bramley House Enterprises.avif" alt="Bramley House Enterprises Logo" />
-                        </div>
-                    </div>
-                    <div className="sponsorComponent goldSponsorComponent">
-                        <div className="sponsorComponentInformation">
-                            <p className="sponsorComponentHeader">Howell Data Systems</p>
-                            <p className="sponsorComponentDescription">Whatever business challenge you need to address, HDS offers all of the necessary components for your business to excel in today’s rapidly-evolving retail environment.</p>
-                            <Link href="https://www.howelldatasystems.com/" target="_blank" rel="noreferrer" className="sponsorButtonLink">
-                                <button>Check it Out</button>
-                            </Link>
-                        </div>
-                        <div className="sponsorComponentLogo">
-                            <img src="Howell Data Systems Logo.avif" alt="Howell Data Systems Logo" />
-                        </div>
-                    </div>
+                    {goldSponsors}
                 </div>
             </section>
             <section className="SilverSponsors sponsorTier">
                 <h2>Silver</h2>
                 <p className="sponsorTierDescription">Anyone who has donated $500+</p>
                 <div className="silverComponentAlign">
-                    <div className="silverComponentSponsor">
-                        <img src="bernhardt.avif" alt="bernhardt sponsor" />
-                        <p>bernhardtcontracting.com</p>
-                        <p>250 857-2432</p>
-                    </div>
+                    {silverSponsors}
                 </div>
             </section>
             {/* <section className="SilverSponsors sponsorTier">
