@@ -33,14 +33,14 @@ export default function Frc(props) {
                             slug={props.slug}
                         />
                         <CompetitionCard 
-                            header="Canadian Pacific Regionals 2019"
-                            description="In their inaugural season, the Reynolds Reybots competed at the Save-On Memorial Center. The Reybots were ranked 31 st after Qualifications with a record of 4-7-0. 7787 won the Rookie All-Star award and an invitation to the FIRST World Robotics Championship in Houston, Texas."
+                            header="FIRST World Championship 2019"
+                            description="In the Hopper Division, the Reynolds Reybots were 54 th with a record of 3-7-0."
                             link="https://www.thebluealliance.com/team/7787/2019"
                             slug={props.slug}
                         />
                         <CompetitionCard 
-                            header="FIRST World Championship 2019"
-                            description="In the Hopper Division, the Reynolds Reybots were 54 th with a record of 3-7-0."
+                            header="Canadian Pacific Regionals 2019"
+                            description="In their inaugural season, the Reynolds Reybots competed at the Save-On Memorial Center. The Reybots were ranked 31 st after Qualifications with a record of 4-7-0. 7787 won the Rookie All-Star award and an invitation to the FIRST World Robotics Championship in Houston, Texas."
                             link="https://www.thebluealliance.com/team/7787/2019"
                             slug={props.slug}
                         />
