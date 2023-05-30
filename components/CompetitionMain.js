@@ -10,7 +10,7 @@ export default function CompetitionMain(props) {
                     <div className="competitionCards">
                         <CompetitionCard 
                             header="FRC Competitions"
-                            description="FIRST Robotics Competition is an international high school robotics competition. Each year, teams of high school students, coaches, and mentors work during a six-week period to build robots capable of competing in that year's game that weigh up to 125 pounds."
+                            description="FIRST Robotics Competition is an international high school robotics competition. Each year, teams of high school students, coaches, and mentors work during a six week period to build robots capable of competing in that year's game that weigh up to 125 pounds."
                             link="frc"
                             slug={props.slug}
                         />
