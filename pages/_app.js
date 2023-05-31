@@ -2,7 +2,7 @@ import '../styles/globals.scss'
 import Head from "next/head"
 
 function MyApp({ Component, pageProps }) {
-  console.log("%c Ayo... What's this?: https://reybots.ca/easter-egg", "background: #222; color: #bada55")
+  console.log("%c Ayo... What's this? (Easter Egg): https://reybots.ca/contact", "background: #222; color: #bada55")
   console.log("%c PS: Don't tell the mentors :)", "background: #FF0000")
 
   return (
