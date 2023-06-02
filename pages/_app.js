@@ -13,8 +13,8 @@ function MyApp({ Component, pageProps }) {
         <link rel="apple-touch-icon" href="logo.svg" />
         <meta name="theme-color" content="#FFFFFF" />
         <meta name="description" content="Reybots is not just about building robots, it is about learning, teaching, and inspiring, STEM, and FIRST. All while having fun." />
-        <meta name="keyword" content="Reybots, Robotics, FRC, FTC, STEM, FIRST, Reynolds, technology, robots, FIRST Robotics, Reynolds Reybots, Java, Programming, Python, Highschool, High School" />
-        <meta name="author" content="Kai Pereira, Tyler Stocks, Reynolds Reybots" />
+        <meta name="keyword" content="18840, 7787, 16353, Reybots, Robotics, FRC, FTC, STEM, FIRST, Reynolds, technology, robots, FIRST Robotics, Reynolds Reybots, Java, Programming, Python, Highschool, High School, Secondary, Secondary School" />
+        <meta name="author" content="Kai Pereira, Tyler James Stocks, Reynolds Reybots" />
         <link rel="manifest" href="/manifest.json" />
       </Head>
       <Component {...pageProps} />
