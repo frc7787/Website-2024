@@ -2,7 +2,6 @@ import React from "react"
 import Nav from "../../../components/Nav"
 import Head from "next/head"
 import { useRouter } from 'next/router'
-import SpecificCompetition from "../../../components/SpecificCompetition"
 
 export default function Competition() {
     const router = useRouter()
