@@ -1,3 +1,4 @@
+// Das Ftc
 import React from "react"
 import CompetitionCard from "./subcomponents/CompetitionCard"
 

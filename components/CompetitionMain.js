@@ -1,3 +1,4 @@
+// Das Incredible
 import React from "react"
 import CompetitionCard from "./subcomponents/CompetitionCard"
 
