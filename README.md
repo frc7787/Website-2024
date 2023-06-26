@@ -11,3 +11,8 @@ npm i
 npm run dev
 ```
 
+# Analytics
+
+Google analytics is actually not setup up just yet.
+ 
+Good news is, we have search console. kaipereira2020@gmail.com currently has access to the seach console if you need that.
