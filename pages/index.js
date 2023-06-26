@@ -9,6 +9,7 @@ export default function Home() {
     <main>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+        <meta name="google-site-verification" content="CDgShZaGIACnlPIJVgaMKk-YREWa20WFPqhPw9S8jLM" />
       </Head>
       <Nav />
       <HomeComponent />
