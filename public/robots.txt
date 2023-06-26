@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://reybots.ca
+
+# Sitemaps
+Sitemap: https://reybots.ca/sitemap.xml
