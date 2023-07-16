@@ -16,11 +16,11 @@ function MyApp({ Component, pageProps }) {
         <meta name="keyword" content="18840, 7787, 16353, Reybots, Robotics, FRC, FTC, STEM, FIRST, Reynolds, technology, robots, FIRST Robotics, Reynolds Reybots, Java, Programming, Python, Highschool, High School, Secondary, Secondary School" />
         <meta name="author" content="Kai Pereira, Tyler James Stocks, Reynolds Reybots" />
         <link rel="manifest" href="/manifest.json" />
-        
+
         {/* Global Site Tag (gtag.js) - Google Analytics */}
         <script
           async
-          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+          src={`https://www.googletagmanager.com/gtag/js?id=G-XNXT5R3YWN`}
         />
         <script
           dangerouslySetInnerHTML={{
@@ -28,7 +28,7 @@ function MyApp({ Component, pageProps }) {
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+          gtag('config', 'G-XNXT5R3YWN', {
             page_path: window.location.pathname,
           });
         `,
