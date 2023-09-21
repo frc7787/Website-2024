@@ -7,7 +7,7 @@ export default function HomeComponent() {
         <main>
             <section className="homeMain" id="home">
                 <h1>Education for the Future Generation</h1>
-                <p className="homeDescription">Our teams central mission is to inspire the future generation and to educate them in the principals of STEM and the ideals of FIRST!</p>
+                <p className="homeDescription">Our team's central mission is to inspire the future generation and to educate them in the principals of STEM and the ideals of FIRST!</p>
                 <a href="#about">
                     <button className="homeAboutButton">About</button>        
                 </a>
@@ -155,7 +155,7 @@ export default function HomeComponent() {
                                     <div>
                                         <img src="/benefitCheckmark.avif" alt="" />
                                     </div>
-                                    <p>Your company acknoledged on the sponsors page of our team website!</p>
+                                    <p>Your company acknowledged on the sponsors page of our team website!</p>
                                 </div>
                                 <div className="pricingComponentBenefit">
                                     <div>
