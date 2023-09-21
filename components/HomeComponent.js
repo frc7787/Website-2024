@@ -7,7 +7,7 @@ export default function HomeComponent() {
         <main>
             <section className="homeMain" id="home">
                 <h1>Education for the Future Generation</h1>
-                <p className="homeDescription">Our team's central mission is to inspire the future generation and to educate them in the principals of STEM and the ideals of FIRST!</p>
+                <p className="homeDescription">Our team&apos;s central mission is to inspire the future generation and to educate them in the principals of STEM and the ideals of FIRST!</p>
                 <a href="#about">
                     <button className="homeAboutButton">About</button>        
                 </a>
