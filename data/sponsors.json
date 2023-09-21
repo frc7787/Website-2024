@@ -30,7 +30,7 @@
         "name": "Ally and Dennis",
         "description": "Our clients like us because they know us. They trust us to tell the truth & they have confidence in our experience in real estate.",
         "websiteLink": "https://allyanddennis.com/",
-        "logo": "/Ally and Dennis_1000.png",
+        "logo": "/Ally and Dennis_1000.avif",
         "amountDonated": 2000
     },
     {
@@ -44,49 +44,49 @@
         "name": "Actuonix",
         "description": "We strive to offer the widest range of micro actuators available to suit any project.",
         "websiteLink": "https://www.actuonix.com/",
-        "logo": "/Actuonix_500.png",
+        "logo": "/Actuonix_500.avif",
         "amountDonated": 500
     },
     {
         "name": "Anthony Spick",
         "description": "With over 20 years of industry experience and perspective, Anthony Spick turns project potential into reality.",
         "websiteLink": "https://anthonyspick.com/",
-        "logo": "/Anthony Spick_300.png",
+        "logo": "/Anthony Spick_300.avif",
         "amountDonated": 300
     },
     {
         "name": "Coast Capital",
         "description": "Coast Capital Savings Federal Credit Union is a member-owned financial co-operative headquartered in Surrey, British Columbia.",
         "websiteLink": "https://www.coastcapitalsavings.com/",
-        "logo": "/Coast Capital_200.png",
+        "logo": "/Coast Capital_200.avif",
         "amountDonated": 200
     },
     {
         "name": "Country Grocer",
         "description": "Vancouver Island and Salt Spring Island family-owned grocery chain",
         "websiteLink": "https://www.countrygrocer.com/",
-        "logo": "/Country_Grocer_500.png",
+        "logo": "/Country_Grocer_500.avif",
         "amountDonated": 500
     },
     {
         "name": "Focal Engineering",
         "description": "Established in 2015 and headquartered in Victoria, we provide building engineering consulting services internationally.",
         "websiteLink": "https://www.focaleng.com/",
-        "logo": "/Focal Engineering_100.png",
+        "logo": "/Focal Engineering_100.avif",
         "amountDonated": 100
     },
     {
         "name": "Frontera",
         "description": "Victoria, BC based custom home and renovation specialist focusing on green building, heritage remodels and architecturally-driven, residential construction.",
         "websiteLink": "https://fronterahomes.ca/",
-        "logo": "/Frontera_250.png",
+        "logo": "/Frontera_250.avif",
         "amountDonated": 250
     },
     {
         "name": "Island Chef",
         "description": "Island Chef Pepper Co was founded on the belief that hot pepper products shouldn't just be spicy, but also delicious.",
         "websiteLink": "https://www.islandchefpepperco.ca/",
-        "logo": "/Island Chef_500.png",
+        "logo": "/Island Chef_500.avif",
         "amountDonated": 500
     },
     {
@@ -100,21 +100,21 @@
         "name": "Redbrick",
         "description": "What began in an intimate, red-brick office of software developers has grown into a global name of disruptive tech-first companies.",
         "websiteLink": "https://rdbrck.com/",
-        "logo": "/Redbrick_1000.jpg",
+        "logo": "/Redbrick_1000.avif",
         "amountDonated": 1000
     },
     {
         "name": "Stasuk",
         "description": "NDE/NDT Service Providor of Industrial Radiography, Ultrasonic, Magnetic Particle, liquid penetrant, Eddy current, IRIS and advanced testing methods.",
         "websiteLink": "https://www.nde.net/",
-        "logo": "/Stasuk_500.png",
+        "logo": "/Stasuk_500.avif",
         "amountDonated": 500
     },
     {
         "name": "Stevenson, Luchies & Legh",
         "description": "Stevenson Luchies & Legh; 25 years of experience with offices in Victoria, Nanaimo and the West Shore. Servicing all of British Columbia.",
         "websiteLink": "https://sll.ca/",
-        "logo": "/Stevenson_300.jpg",
+        "logo": "/Stevenson_300.avif",
         "amountDonated": 300
     },
     {
@@ -128,7 +128,7 @@
         "name": "Viatec",
         "description": "VIATEC is committed to enhancing equity and diversity in the tech sector in Greater Victoria. Our mandate is to cultivate the most cohesive tech community.",
         "websiteLink": "https://www.viatec.ca/",
-        "logo": "/Viatec_1000.png",
+        "logo": "/Viatec_1000.avif",
         "amountDonated": 1000
     }
 ]
