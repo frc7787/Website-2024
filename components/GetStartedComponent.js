@@ -8,7 +8,7 @@ export default function GetStartedComponent() {
             <section className="startedFormDetails">
                 <div className="getStartedHeaders">
                     <h1>Sponsor Us</h1>
-                    <p>Help us fund our new robots for 2023 and also receive fantastic benefits in the process!</p>
+                    <p>Help us fund our new robots for 2023/2024 and also receive fantastic benefits in the process!</p>
                 </div>
                 <div className="getStartedAllInformation">
                     <img src="https://images.gofundme.com/6Kn3ne_nt7FmE-I-Phii2QKLr5E=/720x405/https://d2g8igdw686xgo.cloudfront.net/71471339_1677905628579558_r.jpeg" className="getStartedImage" />
@@ -122,7 +122,7 @@ export default function GetStartedComponent() {
                     </div>
                 </div>
                 <div className="getStartedButtons">
-                    <a href="https://drive.google.com/file/d/1nVa96LfjXIpPU3YXZehfFc4mP3UioZBE/view" target="_blank" rel="noreferrer">
+                    <a href="https://docs.google.com/document/d/1zeOKqpUPmC5Ezn7Eeiv_QGQLDBkFl3XG9JWsn4spxh8/edit?usp=sharing" target="_blank" rel="noreferrer">
                         <button>Donation/Sponsorship Instructions</button>
                     </a>
                     {/* <a href="https://drive.google.com/file/d/1nVa96LfjXIpPU3YXZehfFc4mP3UioZBE/view" target="_blank" rel="noreferrer">
