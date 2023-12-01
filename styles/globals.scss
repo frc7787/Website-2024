@@ -449,9 +449,6 @@ nav {
 .pricingComponentGold {
   height: 580px;
 }
-.pricingComponentPlatinum {
-  height: 732px;
-}
 footer {
   display: flex;
   flex-flow: column;
@@ -953,6 +950,10 @@ footer {
 }
 .goldSponsorComponent {
   margin-top: 125px;
+}
+.getStartedNotification {
+  font-weight: 700;
+  margin-top: 25px;
 }
 .generousComponentSponsor {
   display: flex;

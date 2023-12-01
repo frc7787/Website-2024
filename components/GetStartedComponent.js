@@ -119,6 +119,7 @@ export default function GetStartedComponent() {
                                 <li>Pledge funds: One of our biggest financial difficulties is not knowing if we will qualify for world championships, and then having to frantically obtain funds. If you or your company are willing to pledge funds conditinally if we qualify, either as a donor or sponsor, please reach out to us directly.</li>
                             </ul>
                         </ul>
+                        <p className="getStartedNotification">Would you like to know more about sponsoring the Reynolds Reybots? Do you have any questions or comments? Please contact us at reybots7787@gmail.com</p>
                     </div>
                 </div>
                 <div className="getStartedButtons">
