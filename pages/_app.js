@@ -16,6 +16,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="keyword" content="18840, 7787, 16353, Reybots, Robotics, FRC, FTC, STEM, FIRST, Reynolds, technology, robots, FIRST Robotics, Reynolds Reybots, Java, Programming, Python, Highschool, High School, Secondary, Secondary School" />
         <meta name="author" content="Kai Pereira, Tyler James Stocks, Reynolds Reybots" />
         <link rel="manifest" href="/manifest.json" />
+        <link rel="icon" type="image/x-icon" href="logo.svg" />
 
         {/* Global Site Tag (gtag.js) - Google Analytics */}
         <script
