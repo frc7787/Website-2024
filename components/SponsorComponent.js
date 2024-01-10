@@ -116,21 +116,21 @@ export default function SponsorComponent() {
                 <img src="sponsorsImage.avif" alt="sponsorsImage" />
             </section>
             <section className="platinumSponsors sponsorTier">
-                <h2>Platinum</h2>
+                <h2>Reybot</h2>
                 <p className="sponsorTierDescription">Anyone who has donated $5000+</p>
                 <div className="sponsorComponentAlign">
                     {platinumSponsors}
                 </div>
             </section>
             <section className="goldSponsors sponsorTier">
-                <h2>Gold</h2>
+                <h2>Engineer</h2>
                 <p className="sponsorTierDescription">Anyone who has donated $1000+</p>
                 <div className="sponsorComponentAlign">
                     {goldSponsors}
                 </div>
             </section>
             <section className="SilverSponsors sponsorTier">
-                <h2>Silver</h2>
+                <h2>Mechanic</h2>
                 <p className="sponsorTierDescription">Anyone who has donated $500+</p>
                 <div className="silverComponentAlign">
                     {silverSponsors}
