@@ -24,19 +24,6 @@ export default function HomeComponent() {
                     <h1>Competitions</h1>
                     <p>A collection of our past entries into the FIRST high school robotics/technology competition!</p>
                 </div>  
-                <div className="compeitionElement compeitionElement2">
-                    <img src="/compeition2.avif" className="compeitionElementImage" alt="competition" />
-                    <div className="competitionElementTextAlign">
-                        <div>
-                            <h2>BC Provincial Championship</h2>
-                            <p>Recently one of our two teams had an exciting win at the FIRST Tech Challenge Provincials in Surrey, BC. As a result, we have earned the incredible opportunity to go to the World Championships in Houston, Texas, this April.</p>
-                            <Link href="/get-started" target="_blank" rel="noreferrer">
-                                <button className="competitionViewButton">Sponsor Us Now</button>
-                            </Link>
-                        </div>
-                    </div>
-                </div>
- 
                 <div className="allCompetitions">
                     <div className="compeitionElement">
                         <img src="/compeition1.avif" className="compeitionElementImage" alt="competition" />
@@ -50,14 +37,24 @@ export default function HomeComponent() {
                             </div>
                         </div>
                     </div>
+                    <div className="compeitionElement compeitionElement2">
+                        <img src="/compeition2.avif" className="compeitionElementImage" alt="competition" />
+                        <div className="competitionElementTextAlign">
+                            <div>
+                                <h2>BC Provincial Championship</h2>
+                                <p>Recently one of our two teams had an exciting win at the FIRST Tech Challenge Provincials in Surrey, BC. As a result, we have earned the incredible opportunity to go to the World Championships in Houston, Texas, this April.</p>
+                                <Link href="/get-started" target="_blank" rel="noreferrer">
+                                    <button className="competitionViewButton">Sponsor Us Now</button>
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
                </div>
             </section>
             <section className="sponsorsMain" id="sponsors">
                 <div className="sponsorsHeaders">
                     <h1>Sponsors</h1>
                     <p>Everyone who is currently sponsoring the Reybots and helping to fund our robots!</p>
-                </div>
-                <div className="sponsorsSection">
                 </div>
             </section>
             <section className="aboutMain" id="about">
