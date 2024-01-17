@@ -11,7 +11,7 @@ export default function GetStartedComponent() {
                     <p>Help us fund our new robots for 2023/2024 and also receive fantastic benefits in the process!</p>
                 </div>
                 <div className="getStartedAllInformation">
-                    <img src="https://images.gofundme.com/6Kn3ne_nt7FmE-I-Phii2QKLr5E=/720x405/https://d2g8igdw686xgo.cloudfront.net/71471339_1677905628579558_r.jpeg" className="getStartedImage" />
+                    <img src="sponsorUs.avif" className="getStartedImage" />
                     <p className="getStartedInformation">
                         Recently one of our two teams had an exciting win at the FIRST Tech Challenge Provincials in Surrey, BC. As a result, we have earned the incredible opportunity to go to the World Championships in Houston, Texas, this April.<br /><br />
 
