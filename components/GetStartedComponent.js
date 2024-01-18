@@ -6,9 +6,210 @@ export default function GetStartedComponent() {
     return (
         <main>
             <section className="startedFormDetails">
-                <div className="getStartedHeaders">
+                <div className="pricingHeaders">
                     <h1>Sponsor Us</h1>
-                    <p>Help us fund our new robots for 2023/2024 and also receive fantastic benefits in the process!</p>
+                    <p>Help us fund our new robots for 2022 and also receive fantastic benefits in the process!</p>
+                </div>
+                <div className="pricingComponents">
+
+                    <div className="pricingComponent">
+                        <div className="pricingComponentRelative">
+                            <div className="pricingComponentSubheader">TINKERER</div>
+                            <div className="pricingComponentPricing">
+                                <p className="pricingComponentPricingHeader">$50 to 199</p>
+                                <p className="pricingComponentPricingToAndYear">/ Year</p>
+                            </div>
+                            <div className="seperationLine"></div>
+                            <div className="pricingComponentBenefits">
+                                <div className="pricingComponentBenefit">
+                                    <div>
+                                        <img src="/benefitCheckmark.avif" alt="" />
+                                    </div>
+                                    <p>Invitation to our sponsor night!</p>
+                                </div>
+                                <div className="pricingComponentBenefit">
+                                    <div>
+                                        <img src="benefitCheckmark.avif" alt="" />
+                                    </div>
+                                    <p>Certificate of appreciation that can be displayed at your business!</p>
+                                </div>
+                            </div>
+                            <Link href="/get-started">
+                                <button className="pricingComponentButton">Get Started</button>
+                            </Link>
+                        </div>
+                    </div>
+
+                    <div className="pricingComponent">
+                        <div className="pricingComponentRelative">
+                            <div className="pricingComponentSubheader">CREATOR</div>
+                            <div className="pricingComponentPricing">
+                                <p className="pricingComponentPricingHeader">$200 to 499</p>
+                                <p className="pricingComponentPricingToAndYear">/ Year</p>
+                            </div>
+                            <div className="seperationLine"></div>
+                            <div className="pricingComponentBenefits">
+                                <div className="pricingComponentBenefit">
+                                    <div>
+                                        <img src="/benefitCheckmark.avif" alt="" />
+                                    </div>
+                                    <p>Everything from TINKERER!</p>
+                                </div>
+                                <div className="pricingComponentBenefit">
+                                    <div>
+                                        <img src="/benefitCheckmark.avif" alt="" />
+                                    </div>
+                                    <p>Active link from our website to yours!</p>
+                                </div>
+                                <div className="pricingComponentBenefit">
+                                    <div>
+                                        <img src="/benefitCheckmark.avif" alt="" />
+                                    </div>
+                                    <p>Photo of the Reybots team!</p>
+                                </div>
+                            </div>
+                            <Link href="/get-started">
+                                <button className="pricingComponentButton">Get Started</button>
+                            </Link>
+                        </div>
+                    </div>
+
+                    <div className="pricingComponent">
+                        <div className="pricingComponentRelative">
+                            <div className="pricingComponentSubheader">MECHANIC</div>
+                            <div className="pricingComponentPricing">
+                                <p className="pricingComponentPricingHeader">$500+</p>
+                                <p className="pricingComponentPricingToAndYear">/ Year</p>
+                            </div>
+                            <div className="seperationLine"></div>
+                            <div className="pricingComponentBenefits">
+                                <div className="pricingComponentBenefit">
+                                    <div>
+                                        <img src="/benefitCheckmark.avif" alt="" />
+                                    </div>
+                                    <p>Everything from CREATOR!</p>
+                                </div>
+                                <div className="pricingComponentBenefit">
+                                    <div>
+                                        <img src="/benefitCheckmark.avif" alt="" />
+                                    </div>
+                                    <p>Logo on sponsor banner!</p>
+                                </div>
+                                <div className="pricingComponentBenefit">
+                                    <div>
+                                        <img src="/benefitCheckmark.avif" alt="" />
+                                    </div>
+                                    <p>Logo on robot!</p>
+                                </div>
+                            </div>
+                            <Link href="/get-started">
+                                <button className="pricingComponentButton">Get Started</button>
+                            </Link>
+                        </div>
+                    </div>
+
+                    <div className="pricingComponent pricingComponentGold">
+                        <div className="pricingComponentRelative">
+                            <div className="pricingComponentSubheader">ENGINEER</div>
+                            <div className="pricingComponentPricing">
+                                <p className="pricingComponentPricingHeader">$1000+</p>
+                                <p className="pricingComponentPricingToAndYear">/ Year</p>
+                            </div>
+                            <div className="seperationLine"></div>
+                            <div className="pricingComponentBenefits">
+                                <div className="pricingComponentBenefit">
+                                    <div>
+                                        <img src="/benefitCheckmark.avif" alt="" />
+                                    </div>
+                                    <p>Everything from MECHANIC!</p>
+                                </div>
+                                <div className="pricingComponentBenefit">
+                                    <div>
+                                        <img src="/benefitCheckmark.avif" alt="" />
+                                    </div>
+                                    <p>Team robot demonstration!</p>
+                                </div>
+                                <div className="pricingComponentBenefit">
+                                    <div>
+                                        <img src="/benefitCheckmark.avif" alt="" />
+                                    </div>
+                                    <p>Photo with the team!</p>
+                                </div>
+                                <div className="pricingComponentBenefit">
+                                    <div>
+                                        <img src="/benefitCheckmark.avif" alt="" />
+                                    </div>
+                                    <p>Feature on our social media pages!</p>
+                                </div>
+                            </div>
+                            <Link href="/get-started">
+                                <button className="pricingComponentButton">Get Started</button>
+                            </Link>
+                        </div>
+                    </div>
+
+                    <div className="pricingComponent pricingComponentGold">
+                        <div className="pricingComponentRelative">
+                            <div className="pricingComponentSubheader">ROBORUNNER</div>
+                            <div className="pricingComponentPricing">
+                                <p className="pricingComponentPricingHeader">$2500+</p>
+                                <p className="pricingComponentPricingToAndYear">/ Year</p>
+                            </div>
+                            <div className="seperationLine"></div>
+                            <div className="pricingComponentBenefits">
+                                <div className="pricingComponentBenefit">
+                                    <div>
+                                        <img src="/benefitCheckmark.avif" alt="" />
+                                    </div>
+                                    <p>Everything from ENGINEER!</p>
+                                </div>
+                                <div className="pricingComponentBenefit">
+                                    <div>
+                                        <img src="/benefitCheckmark.avif" alt="" />
+                                    </div>
+                                    <p>Plaque of appreciation!</p>
+                                </div>
+                                <div className="pricingComponentBenefit">
+                                    <div>
+                                        <img src="/benefitCheckmark.avif" alt="" />
+                                    </div>
+                                    <p>We will wear your merchandise!</p>
+                                </div>
+                            </div>
+                            <Link href="/get-started">
+                                <button className="pricingComponentButton">Get Started</button>
+                            </Link>
+                        </div>
+                    </div>
+
+                    <div className="pricingComponent pricingComponentGold">
+                        <div className="pricingComponentRelative">
+                            <div className="pricingComponentSubheader">REYBOT</div>
+                            <div className="pricingComponentPricing">
+                                <p className="pricingComponentPricingHeader">$5000+</p>
+                                <p className="pricingComponentPricingToAndYear">/ Year</p>
+                            </div>
+                            <div className="seperationLine"></div>
+                            <div className="pricingComponentBenefits">
+                                <div className="pricingComponentBenefit">
+                                    <div>
+                                        <img src="/benefitCheckmark.avif" alt="" />
+                                    </div>
+                                    <p>Everything from ROBORUNNER!</p>
+                                </div>
+                                <div className="pricingComponentBenefit">
+                                    <div>
+                                        <img src="/benefitCheckmark.avif" alt="" />
+                                    </div>
+                                    <p>Benefits TBD!</p>
+                                </div>
+                            </div>
+                            <Link href="/get-started">
+                                <button className="pricingComponentButton">Get Started</button>
+                            </Link>
+                        </div>
+                    </div>
+
                 </div>
                 <div className="getStartedAllInformation">
                     <img src="sponsorUs.avif" className="getStartedImage" />
