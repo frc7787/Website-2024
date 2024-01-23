@@ -127,7 +127,15 @@ export default function HomeComponent() {
                     <div className="aboutContainerText">
                         <p className="aboutSubheader">About Us</p>
                         <h3>Way More Than Just Building Robots</h3>
-                        <p className="aboutDescription">The Reynolds Reybots club is not just about building robots. It’s about working in the community, teaching the fundamentals of STEM and inspiring others! All of our students learn so much by getting hands-on with actually building something and collaborating with others! Many of our students grow up and decided to pursue passions in the area of STEM or just use the skills they used while building the robot like creativity and collaboration!</p>
+                        <p className="aboutDescription">
+                            The Reynolds Reybots club is located in Victoria, BC at Reynolds Secondary School.
+                            Our team is not just about building robots.
+                            It's about working in the community, teaching the fundamentals of STEM and inspiring others!
+                            Every year we come together and create a common goal for the season.
+                            This year it's 'Improve our skills, develop our documentation and award focused aspects.'
+                            All of our students work hard to achieve the goal and learn so much along the way by getting hands-on with actually building something, collaborating with others, and sometimes working on the more business side of things! 
+                            Many of our students grow up and decide to pursue passions in the area of STEM or Business, or just use the skills they used while on the team like creativity and collaboration!
+                        </p>
                         <Link href="https://www.thebluealliance.com/team/7787" target="_blank" rel="noreferrer">
                             <button className="competitionViewButton">View on Blue Alliance</button>
                         </Link>
@@ -138,7 +146,7 @@ export default function HomeComponent() {
             <section className="pricingMain" id="pricing">
                 <div className="pricingHeaders">
                     <h1>Sponsor Us</h1>
-                    <p>Help us fund our new robots for 2022 and also receive fantastic benefits in the process!</p>
+                    <p>Help us fund our new robots for 2023/2024 and also receive fantastic benefits in the process!</p>
                 </div>
                 <div className="pricingComponents">
 
