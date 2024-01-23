@@ -132,7 +132,7 @@ export default function HomeComponent() {
                             Our team is not just about building robots.
                             It&apos;s about working in the community, teaching the fundamentals of STEM and inspiring others!
                             Every year we come together and create a common goal for the season.
-                            This year it&apos;s &lsqo; Improve our skills, develop our documentation and award focused aspects.&rsqo;
+                            This year our goal is: Improve our skills, develop our documentation and award focused aspects.
                             All of our students work hard to achieve the goal and learn so much along the way by getting hands-on with actually building something, collaborating with others, and sometimes working on the more business side of things! 
                             Many of our students grow up and decide to pursue passions in the area of STEM or Business, or just use the skills they used while on the team like creativity and collaboration!
                         </p>
