@@ -2,5 +2,5 @@
 module.exports = {
     siteUrl: process.env.SITE_URL || 'https://reybots.ca',
     generateRobotsTxt: true, // (optional)
-    // ...other options
+    exclude: ["/pages/karim-is-awesome.js"]
 }
