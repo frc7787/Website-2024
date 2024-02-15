@@ -60,7 +60,7 @@ const Page = () => {
                     {
                         data.map((team, index) => {
                             return (
-                                <div className="ranking-row">
+                                <div className="ranking-row" key={index}>
                                     <p><b>NUMBER:</b> {Math.round(team.team)}</p>
                                     <p><b>TEAM NAME: </b>{team.team_name}</p>
                                     <p><b>OPR:</b> {Math.round(team.opr)}</p>
