@@ -140,6 +140,10 @@ nav {
     }
   }
 }
+.homeButtonGrid {
+  display: flex;
+  gap: 25px;
+}
 .homeMain {
   display: flex;
   flex-flow: column;
@@ -149,7 +153,7 @@ nav {
 
   h1 {
     font-weight: 700;
-    font-size: 75px;
+    font-size: 60px;
     line-height: 85px;
     color: $black;
     max-width: 880px;
@@ -615,14 +619,15 @@ footer {
 }
 .getStartedHeaders {
   @extend .compeitionsHeaders;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 .getStartedButtons {
   display: flex;
   justify-content: center;
   gap: 50px;
-  margin-top: 100px;
+  margin-top: 25px;
   flex-wrap: wrap;
+  margin-bottom: 100px;
 
   button {
     width: 350px;
@@ -1033,6 +1038,14 @@ footer {
 
 
 
+.homeWinImage {
+  width: 550px;
+  height: 350px;
+  object-fit: cover;
+  margin-top: 50px;
+  border-radius: 15px;
+  margin-bottom: 200px;
+}
 
 
 
