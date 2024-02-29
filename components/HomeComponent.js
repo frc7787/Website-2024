@@ -12,9 +12,9 @@ export default function HomeComponent() {
                     <a href="https://www.gofundme.com/f/help-the-reynolds-reybots-get-to-texas" target="_blank" rel="noreferrer">
                         <button className="homeAboutButton">GoFundMe</button>
                     </a>
-                    <a href="/get-started">
+                    <Link href="/get-started">
                         <button className="homeAboutButton">Sponsor Us</button>
-                    </a>
+                    </Link>
                 </div>
                 <img className="homeWinImage" src="/robotics_win.png" alt="Reybots team winning provincials" />
             </section>
