@@ -7,9 +7,9 @@ export default function HomeComponent() {
         <main>
             <section className="homeMain" id="home">
                 <h1>Reynold Reybots, <br/>Provincial Champions 2024</h1>
-                <p className="homeDescription">Help our team achieve victory by securing resources and support to reach Houston, Texas for the FTC national championship!!</p>
+                <p className="homeDescription">Help our team achieve victory by securing resources and support to reach Houston, Texas for the FTC World Championships!</p>
                 <div className="homeButtonGrid">
-                    <a href="https://gofundme.com/" target="_blank" rel="noreferrer">
+                    <a href="https://www.gofundme.com/f/help-the-reynolds-reybots-get-to-texas" target="_blank" rel="noreferrer">
                         <button className="homeAboutButton">GoFundMe</button>
                     </a>
                     <a href="/get-started">
