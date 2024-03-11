@@ -11,7 +11,7 @@ export default function Ftc(props) {
                     <div className="competitionCards">
                         <CompetitionCard 
                             header="British Columbia FTC Championships 2024"
-                            description="Recently, our team won FIRST Tech Challenge in Surrey, BC which gave us the oppurtunity to go to Worlds in Houston, this april! To go with our win, we also won the control award!"
+                            description="Recently, our team won FIRST Tech Challenge in Surrey, BC which gave us the oppurtunity to go to Worlds in Houston, Texas, this april! To go with our win, we also won the control award!"
                             link="https://ftc-events.firstinspires.org/2023/CABCCMP/playoffs"
                             slug={props.slug}
                         />
