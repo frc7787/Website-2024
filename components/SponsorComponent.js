@@ -26,8 +26,6 @@ export function SponsorPlatinum(props) {
 export function SponsorGold(props) {
     const reversedSponsorElement = props.placement % 2 ? true : false
 
-    console.log(props.placement)
-
     return (
         <div className={`sponsorComponent goldSponsorComponent ${!reversedSponsorElement ? "sponsorComponent2" : ""}`}>
             <div className="sponsorComponentInformation">

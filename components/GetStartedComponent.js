@@ -8,17 +8,25 @@ export default function GetStartedComponent() {
             <section className="startedFormDetails">
                 <div className="getStartedHeaders">
                     <h1>Sponsor Us</h1>
-                    <p>Help us fund our new robots for 2023/2024 and also receive fantastic benefits in the process!</p>
+                    {/* <p>Help us fund our new robots for 2023/2024 and also receive fantastic benefits in the process!</p> */}
+                </div>
+                <p className="getStartedInformation">
+                    Recently one of our two teams had an exciting win at the FIRST Tech Challenge Provincials in Surrey, BC. As a result, we have earned the incredible opportunity to go to the World Championships in Houston, Texas, this April.<br /><br />
+
+                    We are hoping to send 20 people, including students, teachers and mentors on the trip. It is a valuable learning experience; for many students, it will be the only chance they have for an opportunity as monumental as this. One where they will get to meet and collaborate with teams from around the world.<br /><br />
+
+                    We hope you can help us get to Texas to compete in this event. The total cost of the trip would be around $50,000 Canadian; this is mainly just airfare and accommodations. This is approximately $2,500 per student and along with our expenses up to this point is cost prohibitive and cost can be a barrier for many students.<br /><br />
+                </p>
+                <div className="getStartedButtons">
+                    <a href="https://docs.google.com/document/d/1zeOKqpUPmC5Ezn7Eeiv_QGQLDBkFl3XG9JWsn4spxh8/edit?usp=sharing" target="_blank" rel="noreferrer">
+                        <button>Donation/Sponsorship Instructions</button>
+                    </a>
+                    {/* <a href="https://drive.google.com/file/d/1nVa96LfjXIpPU3YXZehfFc4mP3UioZBE/view" target="_blank" rel="noreferrer">
+                        <button>Sponsorships and Pledges</button>
+                    </a> */}
                 </div>
                 <div className="getStartedAllInformation">
                     <img src="sponsorUs.avif" className="getStartedImage" />
-                    <p className="getStartedInformation">
-                        Recently one of our two teams had an exciting win at the FIRST Tech Challenge Provincials in Surrey, BC. As a result, we have earned the incredible opportunity to go to the World Championships in Houston, Texas, this April.<br /><br />
-
-                        We are hoping to send 20 people, including students, teachers and mentors on the trip. It is a valuable learning experience; for many students, it will be the only chance they have for an opportunity as monumental as this. One where they will get to meet and collaborate with teams from around the world.<br /><br />
-
-                        We hope you can help us get to Texas to compete in this event. The total cost of the trip would be around $50,000 Canadian; this is mainly just airfare and accommodations. This is approximately $2,500 per student and along with our expenses up to this point is cost prohibitive and cost can be a barrier for many students.<br /><br />
-                    </p>
                     {/* <p className="getStartedInformation">
                         The Reynolds Reybots are a school-based team that designs and builds competition robots. The team meets year-round and operates like a small business, with different sub-teams that handle everything from marketing and fundraising to programming, mechanics, and electrical work. We operate on an apprenticeship model, where more experienced students lead and mentor more junior students to gain the skills and knowledge required. The collaborative effort of running a team and building and competing with robots provides a real world learning environment that is fun, exciting, and rewarding. As FIRST® founder Dean Kamen said, &quot;We don’t use kids to build robots. We use robots to build kids.&quot;<br /><br />
 
@@ -122,14 +130,7 @@ export default function GetStartedComponent() {
                         <p className="getStartedNotification">Would you like to know more about sponsoring the Reynolds Reybots? Do you have any questions or comments? Please contact us at reybots7787@gmail.com</p>
                     </div>
                 </div>
-                <div className="getStartedButtons">
-                    <a href="https://docs.google.com/document/d/1zeOKqpUPmC5Ezn7Eeiv_QGQLDBkFl3XG9JWsn4spxh8/edit?usp=sharing" target="_blank" rel="noreferrer">
-                        <button>Donation/Sponsorship Instructions</button>
-                    </a>
-                    {/* <a href="https://drive.google.com/file/d/1nVa96LfjXIpPU3YXZehfFc4mP3UioZBE/view" target="_blank" rel="noreferrer">
-                        <button>Sponsorships and Pledges</button>
-                    </a> */}
-                </div>
+                
             </section>
         </main>
     )
