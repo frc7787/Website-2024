@@ -76,8 +76,8 @@ export default function HomeComponent() {
                         
                         Sponsors.map((sponsor, index) => {
                             return (
-                                <div className="sponsorContainer">
-                                    <img src={sponsor.logo} alt="Sponsor" key={index} />
+                                <div className="sponsorContainer" key={index}>
+                                    <img src={sponsor.logo} alt="Sponsor" />
                                 </div>
                             )
                         })
