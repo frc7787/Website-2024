@@ -1,6 +1,8 @@
 // Yeet
 import React from "react"
 import Link from "next/link"
+import Sponsors from "../data/sponsors.json"
+
 
 export default function HomeComponent() {
     return (
@@ -70,69 +72,17 @@ export default function HomeComponent() {
                     <p>Everyone who is currently sponsoring the Reybots and helping to fund our robots!</p>
                 </div>
                 <div className="sponsorsSection">
-                    <div className="sponsorContainer">
-                        <img src="/Komodo.avif" alt="Komodo Sponsor" />
-                    </div>
-                    <div className="sponsorContainer">
-                        <img src="/64k Logo.svg" alt="64K Software Sponsor" />
-                    </div>
-                    <div className="sponsorContainer">
-                        <img src="/Bramley House Enterprises.avif" alt="Bramley House Enterprises" />
-                    </div>
-                    <div className="sponsorContainer">
-                        <img src="/Howell Data Systems Logo.avif" alt="Howell Data Systems Sponsor" />
-                    </div>
-                    <div className="sponsorContainer">
-                        <img src="/bernhardt.avif" alt="Bernhardt Sponsor" />
-                    </div>
-                    <div className="sponsorContainer">
-                        <img src="/49 below_371.webp" alt="49 Below Sponsor" />
-                    </div>
-                    <div className="sponsorContainer">
-                        <img src="/Actuonix_500.avif" alt="Actuonix Sponsor" />
-                    </div>
-                    <div className="sponsorContainer">
-                        <img src="/Ally and Dennis_1000.avif" alt="Ally and Dennis" />
-                    </div>
-                    <div className="sponsorContainer">
-                        <img src="/Anthony Spick_300.avif" alt="Anthony Spick" />
-                    </div>
-                    <div className="sponsorContainer">
-                        <img src="/Coast Capital_200.avif" alt="Coast Capital" />
-                    </div>
-                    <div className="sponsorContainer">
-                        <img src="/Country_Grocer_500.avif" alt="Country Grocer" />
-                    </div>
-                    <div className="sponsorContainer">
-                        <img src="/Focal Engineering_100.avif" alt="Focal Engineering" />
-                    </div>
-                    <div className="sponsorContainer">
-                        <img src="/Frontera_250.avif" alt="Frontera" />
-                    </div>
-                    <div className="sponsorContainer">
-                        <img src="/Island Chef_500.avif" alt="Island Chef" />
-                    </div>
-                    <div className="sponsorContainer">
-                        <img src="/Knappett_500.avif" alt="Knappett" />
-                    </div>
-                    <div className="sponsorContainer">
-                        <img src="/Mac_600.avif" alt="Mac" />
-                    </div>
-                    <div className="sponsorContainer">
-                        <img src="/Redbrick_1000.avif" alt="Redbrick" />
-                    </div>
-                    <div className="sponsorContainer">
-                        <img src="/Stasuk_500.avif" alt="Stasuk" />
-                    </div>
-                    <div className="sponsorContainer">
-                        <img src="/Stevenson_300.avif" alt="Stevenson" />
-                    </div>
-                    <div className="sponsorContainer">
-                        <img src="/UVIC_2500.svg" alt="UVIC" />
-                    </div>
-                    <div className="sponsorContainer">
-                        <img src="/Viatec_1000.avif" alt="Viatec" />
-                    </div>
+                    {
+                        
+                        Sponsors.map((sponsor, index) => {
+                            return (
+                                <div className="sponsorContainer">
+                                    <img src={sponsor.logo} alt="Sponsor" key={index} />
+                                </div>
+                            )
+                        })
+
+                    }
                 </div>
             </section>
             <section className="aboutMain" id="about">

@@ -113,13 +113,15 @@ export default function SponsorComponent() {
                 <button>Contact Us</button>
                 <img src="sponsorsImage.avif" alt="sponsorsImage" />
             </section>
-            <section className="platinumSponsors sponsorTier">
-                <h2>Reybot</h2>
-                <p className="sponsorTierDescription">Anyone who has donated $5000+</p>
-                <div className="sponsorComponentAlign">
-                    {platinumSponsors}
-                </div>
-            </section>
+            { platinumSponsors.length > 0 &&
+                <section className="platinumSponsors sponsorTier">
+                    <h2>Reybot</h2>
+                    <p className="sponsorTierDescription">Anyone who has donated $5000+</p>
+                    <div className="sponsorComponentAlign">
+                        {platinumSponsors}
+                    </div>
+                </section>
+            }
             <section className="goldSponsors sponsorTier">
                 <h2>Engineer</h2>
                 <p className="sponsorTierDescription">Anyone who has donated $1000+</p>
@@ -129,26 +131,26 @@ export default function SponsorComponent() {
             </section>
             <section className="SilverSponsors sponsorTier">
                 <h2>Mechanic</h2>
-                <p className="sponsorTierDescription">Anyone who has donated $500+</p>
+                <p className="sponsorTierDescription">Anyone who has donated!</p>
                 <div className="silverComponentAlign">
                     {silverSponsors}
                 </div>
             </section>
-            <section className="SilverSponsors sponsorTier">
+            {/* <section className="SilverSponsors sponsorTier">
                 <h2>Generous</h2>
                 <p className="sponsorTierDescription">Anyone who has donated $200 - $500</p>
-                <div className="silverComponentAlign">
+                <div className="silverComponentAlign"> */}
                     {/* <div className="silverComponentSponsor">
                         <img src="bernhardt.avif" alt="bernhardt sponsor" />
                     </div> */}
-                    <div className="silverComponentSponsor">
-                        <img src="bernhardt.avif" alt="bernhardt sponsor" />
-                    </div>
                     {/* <div className="silverComponentSponsor">
                         <img src="bernhardt.avif" alt="bernhardt sponsor" />
                     </div> */}
-                </div>
-            </section>
+                    {/* <div className="silverComponentSponsor">
+                        <img src="bernhardt.avif" alt="bernhardt sponsor" />
+                    </div> */}
+                {/* </div>
+            </section> */}
             {/* <section className="generousSponsors sponsorTier">
                 <h2>Friends</h2>
                 <p className="sponsorTierDescription">Anyone who has donated $50 - $200</p>
