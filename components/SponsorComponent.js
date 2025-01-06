@@ -151,24 +151,13 @@ export default function SponsorComponent() {
                     </div> */}
                 {/* </div>
             </section> */}
-            {/* <section className="generousSponsors sponsorTier">
+            <section className="generousSponsors sponsorTier">
                 <h2>Friends</h2>
-                <p className="sponsorTierDescription">Anyone who has donated $50 - $200</p>
+                <p className="sponsorTierDescription">Thank You for Donating!</p>
                 <div className="silverComponentAlign">
-                    <div className="generousComponentSponsor">
-                        <img src="bernhardt.avif" alt="bernhardt sponsor" />
-                    </div>
-                    <div className="generousComponentSponsor">
-                        <img src="bernhardt.avif" alt="bernhardt sponsor" />
-                    </div>
-                    <div className="generousComponentSponsor">
-                        <img src="bernhardt.avif" alt="bernhardt sponsor" />
-                    </div>
-                    <div className="generousComponentSponsor">
-                        <img src="bernhardt.avif" alt="bernhardt sponsor" />
-                    </div>
+			<img src="reybots_sponsors.jpg" alt="reybots friends sponsors" />
                 </div>
-            </section> */}
+            </section>
         </main>
     )
 }
