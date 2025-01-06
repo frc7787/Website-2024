@@ -152,7 +152,7 @@ export default function SponsorComponent() {
                 {/* </div>
             </section> */}
             <section className="generousSponsors sponsorTier">
-                <h2>Friends</h2>
+                <h2>Silent Auction</h2>
                 <p className="sponsorTierDescription">Thank You for Donating!</p>
                 <div className="silverComponentAlign">
 			<img src="reybots_sponsors.jpg" alt="reybots friends sponsors" />

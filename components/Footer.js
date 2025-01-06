@@ -22,9 +22,9 @@ export default function Footer() {
                             <i className="fa-brands fa-instagram"></i>
                         </button>
                     </Link>
-                    <Link href="https://www.tiktok.com/@reybots7787?_t=8acNpBsmYNh&_r=1" target="_blank" rel="noreferrer" >
+                    <Link href="https://www.facebook.com/Reybots/" target="_blank" rel="noreferrer" >
                         <button className="socialButton" aria-label="Youtube Link" >
-                            <i className="fa-brands fa-tiktok"></i>
+                            <i className="fa-brands fa-facebook"></i>
                         </button>
                     </Link>
                 </div>
