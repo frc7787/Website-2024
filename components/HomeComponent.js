@@ -7,7 +7,7 @@ import Sponsors from "../data/sponsors.json"
 export default function HomeComponent() {
     return (
         <main>
-            <section className="homeMain" id="home">
+	    {/* <section className="homeMain" id="home">
                 <h1>Reynold Reybots, <br/>Provincial Champions 2024</h1>
                 <p className="homeDescription">Help our team achieve victory by securing resources and support to reach Houston, Texas for the FTC World Championships!</p>
                 <div className="homeButtonGrid">
@@ -19,7 +19,7 @@ export default function HomeComponent() {
                     </Link>
                 </div>
                 <img className="homeWinImage" src="/robotics_win.png" alt="Reybots team winning provincials" />
-            </section>
+            </section> */}
             <section className="homeMain" id="home">
                 <h1>Education for the Future Generation</h1>
                 <p className="homeDescription">Our team&apos;s central mission is to inspire the future generation and to educate them in the principals of STEM and the ideals of FIRST!</p>
