@@ -11,11 +11,13 @@ export default function GetStartedComponent() {
                     {/* <p>Help us fund our new robots for 2023/2024 and also receive fantastic benefits in the process!</p> */}
                 </div>
                 <p className="getStartedInformation">
-                    Recently one of our two teams had an exciting win at the FIRST Tech Challenge Provincials in Surrey, BC. As a result, we have earned the incredible opportunity to go to the World Championships in Houston, Texas, this April.<br /><br />
-
-                    We are hoping to send 20 people, including students, teachers and mentors on the trip. It is a valuable learning experience; for many students, it will be the only chance they have for an opportunity as monumental as this. One where they will get to meet and collaborate with teams from around the world.<br /><br />
-
-                    We hope you can help us get to Texas to compete in this event. The total cost of the trip would be around $50,000 Canadian; this is mainly just airfare and accommodations. This is approximately $2,500 per student and along with our expenses up to this point is cost prohibitive and cost can be a barrier for many students.<br /><br />
+			Last year, we proudly represented our community at the FIRST Tech Challenge World Championships in Houston, Texas, placing 22nd in our division. This marked our second consecutive year at Worlds, and we are determined to continue building on this momentum.
+		<br/>
+		<br/>
+			This season, we’ve already achieved incredible milestones, including winning the highest award in FIRST and being part of the winning alliance at qualifiers. We believe in our team’s potential to succeed again and qualify for the World Championships. The cost to send both of our teams and enough mentors and supervisors to Houston for a week is approximately $40,000 CAD.
+		<br/>
+		<br/>
+			Even if we don’t make it to Worlds this year, your support will have a meaningful impact. It helps us continue to promote STEM education throughout our community. Our team runs a robotics club and FLL team at a local middle school, and we are working to establish another middle school robotics club. We also regularly organize demonstrations to inspire students and engage with local organizations.
                 </p>
                 <div className="getStartedButtons">
                     <a href="https://docs.google.com/document/d/1zeOKqpUPmC5Ezn7Eeiv_QGQLDBkFl3XG9JWsn4spxh8/edit?usp=sharing" target="_blank" rel="noreferrer">
