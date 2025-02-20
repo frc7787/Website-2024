@@ -7,19 +7,76 @@ import Sponsors from "../data/sponsors.json"
 export default function HomeComponent() {
     return (
         <main>
-	    {/* <section className="homeMain" id="home">
-                <h1>Reynold Reybots, <br/>Provincial Champions 2024</h1>
-                <p className="homeDescription">Help our team achieve victory by securing resources and support to reach Houston, Texas for the FTC World Championships!</p>
-                <div className="homeButtonGrid">
-                    <a href="https://www.gofundme.com/f/help-the-reynolds-reybots-get-to-texas" target="_blank" rel="noreferrer">
-                        <button className="homeAboutButton">GoFundMe</button>
-                    </a>
-                    <Link href="/get-started">
-                        <button className="homeAboutButton">Sponsor Us</button>
-                    </Link>
+            <section className="tempMain">
+                <h2>#18840</h2>
+                <h1>Reynolds Reybots</h1>
+                <div className="tempAlignImages">
+                    <img src="/FIRST-logos/FIRST_logo.png" alt="FIRST Logo" />
+                    <img src="/FIRST-logos/FIRST_bc_logo.png" alt="FIRST Tech Challenge Logo" />
+                    <img src="/FIRST-logos/FIRST_tech_logo.png" alt="FIRST BC Logo" />
                 </div>
-                <img className="homeWinImage" src="/robotics_win.png" alt="Reybots team winning provincials" />
-            </section> */}
+                <div className="tempGrid">
+                    <div>
+                        <p>Scoring Information:</p>
+                        <span>
+                            referred Auto: Specimens Max 4 (40 - 63 pts)<br />
+                            Alternative Auto: Samples (22 pts)<br /><br />
+
+                            Preferred TeleOp:  Specimens (60-80)<br />
+                            Alternative TeleOp: Samples (56-72)<br /><br />
+
+                            Endgame: Level 3 Ascent (30)<br /><br />
+
+                            <u>10 Run Average in Practice:</u><br /><br />
+
+                            Specimens : 70 TeleOp / 125 Total<br />
+                            Samples : 65 TeleOp / 120 Total<br />
+                        </span>
+                    </div>
+                    <div>
+                        <p>Strategy:</p>
+                        <span>
+                            Specimens in Auto.<br /><br />
+
+                            Specimens in Tele, with samples as necessary or when advantageous. We like a clear path between the two nearest sides of the sub and the observation zone. If you are picking up specimens from the observation zone, please stick to one side of the observation zone, rather than going to the middle.<br /><br />
+
+                            Ascent at the last second.<br />
+                        </span>
+                    </div>
+                    <div>
+                        <p>Teleop Scoring Plan A:</p>
+                        <span>
+                            <ul>
+                                <li>- Specimen Clipping.</li>
+                                <li>- Scoring in Range of 6 to 8 Specimens Clipped.</li>
+                                <li>- Picking up from all parts of the sub but concentrating on near and right side.</li>
+                                <li>- Moving between sub, observation, and bars.</li>
+                                <li>- Level 3 Ascent or Park in Observation Zone.</li><br />
+                                <b><li>- Possible Scores (with Auto included):</li>
+                                <ol>- Ideal = 213</ol>  
+                                <ol>- Solid = 146  </ol>
+                                <ol>- Decent = 106</ol></b>
+                            </ul>
+                        </span>
+                    </div>
+                    <div>
+                    <p>Teleop Scoring Plan B:</p>
+                        <span>
+                            <ul>
+                                <li>- Sample Buckets.</li>
+                                <li>- Scoring in Range of 8 to 10 Bucket Samples</li>
+                                <li>- Picking up from all parts of the sub but concentrating on near and left side.</li>
+                                <li>- Get 2 samples from Human in End Game.</li>
+                                <li>- Level 3 Ascent or Park in Observation Zone or Bar</li><br />
+                                <b><li>- Possible Scores (with Auto included):</li>
+                                <ol>- Ideal = 193</ol>  
+                                <ol>- Solid = 130</ol>
+                                <ol>- Decent = 94</ol></b>
+                            </ul>
+                        </span>
+                    </div>
+                </div>
+            </section>
             <section className="homeMain" id="home">
                 <h1>Education for the Future Generation</h1>
                 <p className="homeDescription">Our team&apos;s central mission is to inspire the future generation and to educate them in the principals of STEM and the ideals of FIRST!</p>
