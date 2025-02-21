@@ -19,7 +19,7 @@ export default function HomeComponent() {
                     <div>
                         <p>Scoring Information:</p>
                         <span>
-                            referred Auto: Specimens Max 4 (40 - 63 pts)<br />
+                            Preferred Auto: Specimens Max 4 (40 - 63 pts)<br />
                             Alternative Auto: Samples (22 pts)<br /><br />
 
                             Preferred TeleOp:  Specimens (60-80)<br />
@@ -77,7 +77,7 @@ export default function HomeComponent() {
                     </div>
                 </div>
             </section>
-            <section className="homeMain" id="home">
+            <section className="homeMain">
                 <h1>Education for the Future Generation</h1>
                 <p className="homeDescription">Our team&apos;s central mission is to inspire the future generation and to educate them in the principals of STEM and the ideals of FIRST!</p>
                 <a href="#about">
