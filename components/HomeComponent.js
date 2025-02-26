@@ -15,6 +15,9 @@ export default function HomeComponent() {
                     <img src="/FIRST-logos/FIRST_bc_logo.png" alt="FIRST Tech Challenge Logo" />
                     <img src="/FIRST-logos/FIRST_tech_logo.png" alt="FIRST BC Logo" />
                 </div>
+                <a href="https://www.gofundme.com/f/help-the-reynolds-reybots-travel-to-world-championships" target="_blank" rel="noreferrer">
+                    <button className="homeAboutButton goFundMeButton">GoFundMe</button>
+                </a>
                 <div className="tempGrid">
                     <div>
                         <p>Scoring Information:</p>
