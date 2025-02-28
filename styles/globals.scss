@@ -181,13 +181,32 @@ nav {
 .tempAlignImages {
   display: flex;
   gap: 50px; 
-  margin-top: 50px;
+  margin-bottom: 50px;
   justify-content: center;
   flex-wrap: wrap;
   
   img {
     height: 100px;
   }
+}
+.homeMainWin2025 {
+  width: 100%;
+  max-width: 1000px;
+  border-radius: 25px;
+  margin-top: 75px;
+  margin-bottom: 100px;
+}
+.homeMainFundUs {
+  display: flex;
+  gap: 25px;
+}
+.gofundmeSubheader {
+  margin-top: 25px;
+  font-weight: bold;
+  width: 100%;
+  max-width: 800px;
+  font-size: 25px;
+  line-height: 35px;
 }
 .tempGrid {
   display:grid;

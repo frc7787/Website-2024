@@ -8,17 +8,23 @@ export default function HomeComponent() {
     return (
         <main>
             <section className="tempMain">
-                <h2>#18840</h2>
-                <h1>Reynolds Reybots</h1>
                 <div className="tempAlignImages">
                     <img src="/FIRST-logos/FIRST_logo.png" alt="FIRST Logo" />
                     <img src="/FIRST-logos/FIRST_bc_logo.png" alt="FIRST Tech Challenge Logo" />
                     <img src="/FIRST-logos/FIRST_tech_logo.png" alt="FIRST BC Logo" />
                 </div>
-                <a href="https://www.gofundme.com/f/help-the-reynolds-reybots-travel-to-world-championships" target="_blank" rel="noreferrer">
+
+                <h1>Reybots to Worlds!</h1>
+                <p className="gofundmeSubheader">Donate to help the Reynolds Reybots go to the FIRST Robotics World Championship in Houston!</p>
+
+                <a href="https://www.gofundme.com/f/help-the-reynolds-reybots-travel-to-world-championships" target="_blank" rel="noreferrer" className="homeMainFundUs">
                     <button className="homeAboutButton goFundMeButton">GoFundMe</button>
+                    <button className="homeAboutButton">Sponsor Us</button>
                 </a>
-                <div className="tempGrid">
+
+                <img src="/team_win_provincials_2025.png" alt="Team winning in provincials, 2025" className="homeMainWin2025" />
+
+                {/* <div className="tempGrid">
                     <div>
                         <p>Scoring Information:</p>
                         <span>
@@ -78,7 +84,7 @@ export default function HomeComponent() {
                             </ul>
                         </span>
                     </div>
-                </div>
+                </div>*/}
             </section>
             <section className="homeMain">
                 <h1>Education for the Future Generation</h1>
