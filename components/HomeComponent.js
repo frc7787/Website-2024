@@ -17,10 +17,10 @@ export default function HomeComponent() {
                 <h1>Reybots to Worlds!</h1>
                 <p className="gofundmeSubheader">Donate to help the Reynolds Reybots go to the FIRST Robotics World Championship in Houston!</p>
 
-                <a href="https://www.gofundme.com/f/help-the-reynolds-reybots-travel-to-world-championships" target="_blank" rel="noreferrer" className="homeMainFundUs">
-                    <button className="homeAboutButton goFundMeButton">GoFundMe</button>
-                    <button className="homeAboutButton">Sponsor Us</button>
-                </a>
+                <div className="homeMainFundUs">
+                    <a href="https://www.gofundme.com/f/help-the-reynolds-reybots-travel-to-world-championships" target="_blank" rel="noreferrer" className="homeAboutButton goFundMeButton">GoFundMe</a>
+                    <a href="/get-started" target="_blank" rel="noreferrer" className="homeAboutButton">Sponsor Us</a>
+                </div>
 
                 <img src="/team_win_provincials_2025.png" alt="Team winning in provincials, 2025" className="homeMainWin2025" />
 
